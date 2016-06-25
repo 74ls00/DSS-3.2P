@@ -256,8 +256,8 @@
 <dimension x1="37.465" y1="213.36" x2="26.3525" y2="187.96" x3="26.035" y3="200.66" layer="120" dtype="vertical"/>
 <wire x1="286.385" y1="75.565" x2="244.7925" y2="30.1625" width="0.6096" layer="37"/>
 <wire x1="92.075" y1="81.28" x2="50.165" y2="32.385" width="0.6096" layer="37"/>
-<dimension x1="49.2125" y1="32.385" x2="42.8625" y2="47.625" x3="25.4" y3="40.005" layer="120" dtype="vertical"/>
-<dimension x1="50.165" y1="30.48" x2="147.32" y2="27.94" x3="98.7425" y3="11.43" layer="120" dtype="horizontal"/>
+<dimension x1="30.1625" y1="32.385" x2="42.8625" y2="47.625" x3="25.4" y3="40.005" layer="120" dtype="vertical"/>
+<dimension x1="50.165" y1="22.5425" x2="147.32" y2="27.94" x3="98.7425" y3="11.43" layer="120" dtype="horizontal"/>
 <dimension x1="148.59" y1="213.36" x2="138.43" y2="216.535" x3="151.765" y3="214.9475" layer="120" dtype="vertical"/>
 <dimension x1="46.6725" y1="69.85" x2="47.625" y2="74.295" x3="26.67" y3="72.0725" layer="120" dtype="vertical"/>
 <dimension x1="43.815" y1="88.265" x2="44.7675" y2="92.71" x3="32.385" y3="90.4875" layer="120" dtype="vertical"/>
@@ -2900,33 +2900,6 @@ Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html</description>
 <wire x1="3.9" y1="1.75" x2="3.2" y2="2.45" width="0.127" layer="21"/>
 <wire x1="3.9" y1="-1.8" x2="3.2" y2="-2.5" width="0.127" layer="21"/>
 </package>
-<package name="BFRAME">
-<description>Нижняя плата</description>
-<wire x1="122.555" y1="-18.415" x2="122.555" y2="-162.56" width="0.2" layer="20"/>
-<wire x1="0" y1="-18.415" x2="0" y2="-162.56" width="0.2" layer="20"/>
-<wire x1="12.7" y1="0" x2="12.7" y2="-18.415" width="0.2" layer="20"/>
-<wire x1="12.7" y1="-18.415" x2="0" y2="-18.415" width="0.2" layer="20"/>
-<wire x1="109.855" y1="0" x2="109.855" y2="-18.415" width="0.2" layer="20"/>
-<wire x1="109.855" y1="-18.415" x2="122.555" y2="-18.415" width="0.2" layer="20"/>
-<wire x1="12.7" y1="0" x2="109.855" y2="0" width="0.2" layer="20"/>
-<wire x1="122.555" y1="-162.56" x2="109.855" y2="-162.56" width="0.2" layer="20"/>
-<wire x1="109.855" y1="-162.56" x2="109.855" y2="-180.975" width="0.2" layer="20"/>
-<wire x1="12.7" y1="-180.975" x2="12.7" y2="-162.56" width="0.2" layer="20"/>
-<wire x1="12.7" y1="-162.56" x2="0" y2="-162.56" width="0.2" layer="20"/>
-<wire x1="12.7" y1="-180.975" x2="109.855" y2="-180.975" width="0.2" layer="20"/>
-<circle x="17" y="-13.365" radius="1.6" width="0.127" layer="20"/>
-<circle x="106" y="-13.365" radius="1.6" width="0.127" layer="20"/>
-<circle x="17" y="-77.365" radius="1.6" width="0.127" layer="20"/>
-<circle x="106" y="-77.365" radius="1.6" width="0.127" layer="20"/>
-<circle x="17" y="-167.365" radius="1.6" width="0.127" layer="20"/>
-<circle x="106" y="-167.365" radius="1.6" width="0.127" layer="20"/>
-<circle x="106" y="-13.365" radius="2.6" width="2" layer="21"/>
-<circle x="17" y="-13.365" radius="2.6" width="2" layer="21"/>
-<circle x="17" y="-77.365" radius="2.6" width="2" layer="21"/>
-<circle x="106" y="-77.365" radius="2.6" width="2" layer="21"/>
-<circle x="17" y="-167.365" radius="2.6" width="2" layer="21"/>
-<circle x="106" y="-167.365" radius="2.6" width="2" layer="21"/>
-</package>
 <package name="B3F-40XX">
 <description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
 <wire x1="-1.905" y1="1.905" x2="1.905" y2="1.905" width="0.1524" layer="21"/>
@@ -3555,6 +3528,35 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <pad name="GND3" x="-2.03" y="-6.3822" drill="1.4" diameter="2.8" shape="square"/>
 <pad name="GND4" x="2.9776" y="-6.3822" drill="1.4" diameter="2.8" shape="square"/>
 </package>
+<package name="BFRAME">
+<description>Нижняя плата</description>
+<wire x1="122.555" y1="-18.415" x2="122.555" y2="-162.56" width="0.2" layer="20"/>
+<wire x1="0" y1="-18.415" x2="0" y2="-162.56" width="0.2" layer="20"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="-18.415" width="0.2" layer="20"/>
+<wire x1="12.7" y1="-18.415" x2="0" y2="-18.415" width="0.2" layer="20"/>
+<wire x1="109.855" y1="0" x2="109.855" y2="-18.415" width="0.2" layer="20"/>
+<wire x1="109.855" y1="-18.415" x2="122.555" y2="-18.415" width="0.2" layer="20"/>
+<wire x1="12.7" y1="0" x2="109.855" y2="0" width="0.2" layer="20"/>
+<wire x1="122.555" y1="-162.56" x2="109.855" y2="-162.56" width="0.2" layer="20"/>
+<wire x1="109.855" y1="-162.56" x2="109.855" y2="-180.975" width="0.2" layer="20"/>
+<wire x1="12.7" y1="-172.085" x2="12.7" y2="-162.56" width="0.2" layer="20"/>
+<wire x1="12.7" y1="-162.56" x2="0" y2="-162.56" width="0.2" layer="20"/>
+<circle x="17" y="-13.365" radius="1.6" width="0.127" layer="20"/>
+<circle x="106" y="-13.365" radius="1.6" width="0.127" layer="20"/>
+<circle x="17" y="-77.365" radius="1.6" width="0.127" layer="20"/>
+<circle x="106" y="-77.365" radius="1.6" width="0.127" layer="20"/>
+<circle x="17" y="-167.365" radius="1.6" width="0.127" layer="20"/>
+<circle x="106" y="-167.365" radius="1.6" width="0.127" layer="20"/>
+<circle x="106" y="-13.365" radius="2.6" width="2" layer="21"/>
+<circle x="17" y="-13.365" radius="2.6" width="2" layer="21"/>
+<circle x="17" y="-77.365" radius="2.6" width="2" layer="21"/>
+<circle x="106" y="-77.365" radius="2.6" width="2" layer="21"/>
+<circle x="17" y="-167.365" radius="2.6" width="2" layer="21"/>
+<circle x="106" y="-167.365" radius="2.6" width="2" layer="21"/>
+<wire x1="36.195" y1="-180.975" x2="109.855" y2="-180.975" width="0.2" layer="20"/>
+<wire x1="12.7" y1="-172.085" x2="36.195" y2="-172.085" width="0.2" layer="20"/>
+<wire x1="36.195" y1="-172.085" x2="36.195" y2="-180.975" width="0.2" layer="20"/>
+</package>
 </packages>
 </library>
 <library name="74xx-eu">
@@ -4053,7 +4055,7 @@ Based on the following sources:
 </element>
 <element name="1R21" library="resistor" package="M0805" value="33k" x="195.2625" y="85.09" rot="MR180"/>
 <element name="1C7" library="resistor" package="C0805" value="100n" x="80.645" y="44.45" smashed="yes" rot="MR270">
-<attribute name="NAME" x="79.4385" y="42.4815" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="83.2485" y="41.2115" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="82.931" y="45.339" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="1R31" library="resistor" package="M0805" value="33k" x="139.065" y="168.5925" rot="MR0"/>
@@ -4659,7 +4661,6 @@ Based on the following sources:
 <attribute name="NAME" x="291.211" y="142.9385" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="290.8935" y="141.5415" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="BFRAME" library="DSS" package="BFRAME" value="_SYMBOL_BFRAME" x="37.465" y="213.36" locked="yes"/>
 <element name="MFRAME_D" library="DSS" package="MFRAME" value="_SYMBOL_MFRAME" x="239.0775" y="39.6875"/>
 <element name="SOLDER" library="DSS0" package="DIN_5_FEMALE_SUPPORT" value="CON_DIN5" x="107.95" y="41.5925"/>
 <element name="SOLDER2" library="DSS0" package="DIN_5_FEMALE_SUPPORT" value="CON_DIN5" x="129.2225" y="41.5925"/>
@@ -4863,6 +4864,7 @@ Based on the following sources:
 </element>
 <element name="2J4" library="resistor" package="R3225W" value="0" x="148.9075" y="172.4025" rot="MR180"/>
 <element name="2J5" library="resistor" package="R1206W" value="0" x="131.7625" y="182.88" rot="MR180"/>
+<element name="BFRAME2" library="DSS0" package="BFRAME" value="_SYMBOL_BFRAME" x="37.465" y="213.36" locked="yes"/>
 </elements>
 <signals>
 <signal name="VCC">

@@ -33744,33 +33744,6 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <wire x1="107.95" y1="161.29" x2="107.95" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="107.95" y2="0" width="0.127" layer="21"/>
 </package>
-<package name="BFRAME">
-<description>Нижняя плата</description>
-<wire x1="122.555" y1="-18.415" x2="122.555" y2="-162.56" width="0.2" layer="20"/>
-<wire x1="0" y1="-18.415" x2="0" y2="-162.56" width="0.2" layer="20"/>
-<wire x1="12.7" y1="0" x2="12.7" y2="-18.415" width="0.2" layer="20"/>
-<wire x1="12.7" y1="-18.415" x2="0" y2="-18.415" width="0.2" layer="20"/>
-<wire x1="109.855" y1="0" x2="109.855" y2="-18.415" width="0.2" layer="20"/>
-<wire x1="109.855" y1="-18.415" x2="122.555" y2="-18.415" width="0.2" layer="20"/>
-<wire x1="12.7" y1="0" x2="109.855" y2="0" width="0.2" layer="20"/>
-<wire x1="122.555" y1="-162.56" x2="109.855" y2="-162.56" width="0.2" layer="20"/>
-<wire x1="109.855" y1="-162.56" x2="109.855" y2="-180.975" width="0.2" layer="20"/>
-<wire x1="12.7" y1="-180.975" x2="12.7" y2="-162.56" width="0.2" layer="20"/>
-<wire x1="12.7" y1="-162.56" x2="0" y2="-162.56" width="0.2" layer="20"/>
-<wire x1="12.7" y1="-180.975" x2="109.855" y2="-180.975" width="0.2" layer="20"/>
-<circle x="17" y="-13.365" radius="1.6" width="0.127" layer="20"/>
-<circle x="106" y="-13.365" radius="1.6" width="0.127" layer="20"/>
-<circle x="17" y="-77.365" radius="1.6" width="0.127" layer="20"/>
-<circle x="106" y="-77.365" radius="1.6" width="0.127" layer="20"/>
-<circle x="17" y="-167.365" radius="1.6" width="0.127" layer="20"/>
-<circle x="106" y="-167.365" radius="1.6" width="0.127" layer="20"/>
-<circle x="106" y="-13.365" radius="2.6" width="2" layer="21"/>
-<circle x="17" y="-13.365" radius="2.6" width="2" layer="21"/>
-<circle x="17" y="-77.365" radius="2.6" width="2" layer="21"/>
-<circle x="106" y="-77.365" radius="2.6" width="2" layer="21"/>
-<circle x="17" y="-167.365" radius="2.6" width="2" layer="21"/>
-<circle x="106" y="-167.365" radius="2.6" width="2" layer="21"/>
-</package>
 <package name="TFRAME">
 <description>Верхняя плата</description>
 <wire x1="122.555" y1="-18.415" x2="122.555" y2="-162.56" width="0.2" layer="20"/>
@@ -34519,6 +34492,35 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <text x="-2.94" y="-2.56" size="1.6764" layer="21" ratio="15">DIN-5</text>
 <pad name="GND3" x="-2.03" y="-6.3822" drill="1.4" diameter="2.8" shape="square"/>
 <pad name="GND4" x="2.9776" y="-6.3822" drill="1.4" diameter="2.8" shape="square"/>
+</package>
+<package name="BFRAME">
+<description>Нижняя плата</description>
+<wire x1="122.555" y1="-18.415" x2="122.555" y2="-162.56" width="0.2" layer="20"/>
+<wire x1="0" y1="-18.415" x2="0" y2="-162.56" width="0.2" layer="20"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="-18.415" width="0.2" layer="20"/>
+<wire x1="12.7" y1="-18.415" x2="0" y2="-18.415" width="0.2" layer="20"/>
+<wire x1="109.855" y1="0" x2="109.855" y2="-18.415" width="0.2" layer="20"/>
+<wire x1="109.855" y1="-18.415" x2="122.555" y2="-18.415" width="0.2" layer="20"/>
+<wire x1="12.7" y1="0" x2="109.855" y2="0" width="0.2" layer="20"/>
+<wire x1="122.555" y1="-162.56" x2="109.855" y2="-162.56" width="0.2" layer="20"/>
+<wire x1="109.855" y1="-162.56" x2="109.855" y2="-180.975" width="0.2" layer="20"/>
+<wire x1="12.7" y1="-172.085" x2="12.7" y2="-162.56" width="0.2" layer="20"/>
+<wire x1="12.7" y1="-162.56" x2="0" y2="-162.56" width="0.2" layer="20"/>
+<circle x="17" y="-13.365" radius="1.6" width="0.127" layer="20"/>
+<circle x="106" y="-13.365" radius="1.6" width="0.127" layer="20"/>
+<circle x="17" y="-77.365" radius="1.6" width="0.127" layer="20"/>
+<circle x="106" y="-77.365" radius="1.6" width="0.127" layer="20"/>
+<circle x="17" y="-167.365" radius="1.6" width="0.127" layer="20"/>
+<circle x="106" y="-167.365" radius="1.6" width="0.127" layer="20"/>
+<circle x="106" y="-13.365" radius="2.6" width="2" layer="21"/>
+<circle x="17" y="-13.365" radius="2.6" width="2" layer="21"/>
+<circle x="17" y="-77.365" radius="2.6" width="2" layer="21"/>
+<circle x="106" y="-77.365" radius="2.6" width="2" layer="21"/>
+<circle x="17" y="-167.365" radius="2.6" width="2" layer="21"/>
+<circle x="106" y="-167.365" radius="2.6" width="2" layer="21"/>
+<wire x1="36.195" y1="-180.975" x2="109.855" y2="-180.975" width="0.2" layer="20"/>
+<wire x1="12.7" y1="-172.085" x2="36.195" y2="-172.085" width="0.2" layer="20"/>
+<wire x1="36.195" y1="-172.085" x2="36.195" y2="-180.975" width="0.2" layer="20"/>
 </package>
 </packages>
 <symbols>
@@ -37397,7 +37399,6 @@ Source: 008-0260-0_E.pdf</description>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="4R13" library="resistor" deviceset="R-EU_" device="0207/10" value="470"/>
 <part name="4R14" library="resistor" deviceset="R-EU_" device="M0805" value="470"/>
-<part name="BFRAME" library="DSS" deviceset="_SYMBOL" device="_BFRAME"/>
 <part name="MFRAME_D" library="DSS" deviceset="_SYMBOL" device="_MFRAME"/>
 <part name="SOLDER" library="DSS0" deviceset="CON_DIN5" device=""/>
 <part name="SOLDER2" library="DSS0" deviceset="CON_DIN5" device=""/>
@@ -37486,6 +37487,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="2J3" library="resistor" deviceset="R-EU_" device="R3225W" value="0"/>
 <part name="2J4" library="resistor" deviceset="R-EU_" device="R3225W" value="0"/>
 <part name="2J5" library="resistor" deviceset="R-EU_" device="R1206W" value="0"/>
+<part name="BFRAME2" library="DSS0" deviceset="_SYMBOL" device="_BFRAME"/>
 </parts>
 <sheets>
 <sheet>
@@ -38293,7 +38295,6 @@ Source: 008-0260-0_E.pdf</description>
 <attribute name="NAME" x="-147.5486" y="58.42" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-142.748" y="58.42" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="BFRAME" gate="G$1" x="208.28" y="105.41"/>
 <instance part="MFRAME_D" gate="G$1" x="218.44" y="111.76"/>
 <instance part="SOLDER" gate="G$1" x="290.83" y="-133.35" smashed="yes" rot="R270">
 <attribute name="NAME" x="287.274" y="-131.064" size="1.27" layer="95"/>
@@ -38546,6 +38547,7 @@ Source: 008-0260-0_E.pdf</description>
 <attribute name="NAME" x="8.89" y="-89.9414" size="1.778" layer="95"/>
 <attribute name="VALUE" x="19.05" y="-88.138" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="BFRAME2" gate="G$1" x="208.28" y="104.14"/>
 </instances>
 <busses>
 <bus name="A,B,C,D,E,F,G,H,HL6">
