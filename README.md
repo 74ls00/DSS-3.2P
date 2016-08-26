@@ -2,7 +2,11 @@
 
 Корпус Gainta G1188B
 
-Ссылки по проекту https://74ls00.github.io/dss3v/Links.html
+[Ссылки по проекту](https://74ls00.github.io/dss3v/Links.html)
+
+Прошлая конструкция [DSS-3V](https://github.com/74ls00/DSS-3V)
+
+![фото](https://raw.githubusercontent.com/74ls00/DSS-3.2P/master/pic/DSC01197.jpg)
 
 Схема почти полностью отлажена.
 
