@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -946,7 +946,7 @@ grid 2.54 mm</description>
 <wire x1="109.855" y1="-18.415" x2="122.555" y2="-18.415" width="0.2" layer="20"/>
 <wire x1="12.7" y1="0" x2="109.855" y2="0" width="0.2" layer="20"/>
 <wire x1="122.555" y1="-162.56" x2="109.855" y2="-162.56" width="0.2" layer="20"/>
-<wire x1="109.855" y1="-162.56" x2="109.855" y2="-180.975" width="0.2" layer="20"/>
+<wire x1="109.855" y1="-162.56" x2="109.855" y2="-179.07" width="0.2" layer="20"/>
 <wire x1="12.7" y1="-172.085" x2="12.7" y2="-162.56" width="0.2" layer="20"/>
 <wire x1="12.7" y1="-162.56" x2="0" y2="-162.56" width="0.2" layer="20"/>
 <circle x="17" y="-13.365" radius="1.6" width="0.127" layer="20"/>
@@ -961,9 +961,9 @@ grid 2.54 mm</description>
 <circle x="106" y="-77.365" radius="2.6" width="2" layer="21"/>
 <circle x="17" y="-167.365" radius="2.6" width="2" layer="21"/>
 <circle x="106" y="-167.365" radius="2.6" width="2" layer="21"/>
-<wire x1="36.195" y1="-180.975" x2="109.855" y2="-180.975" width="0.2" layer="20"/>
+<wire x1="36.195" y1="-179.07" x2="109.855" y2="-179.07" width="0.2" layer="20"/>
 <wire x1="12.7" y1="-172.085" x2="36.195" y2="-172.085" width="0.2" layer="20"/>
-<wire x1="36.195" y1="-172.085" x2="36.195" y2="-180.975" width="0.2" layer="20"/>
+<wire x1="36.195" y1="-172.085" x2="36.195" y2="-179.07" width="0.2" layer="20"/>
 </package>
 <package name="TFRAME">
 <description>Верхняя плата</description>
