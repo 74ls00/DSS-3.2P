@@ -36465,9 +36465,9 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="1OK3" library="DSS" deviceset="MOC3063M" device="D" value="MOC3063"/>
 <part name="1T3" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600CWRG"/>
 <part name="1R35" library="resistor" deviceset="R-EU_" device="M0805" value="510"/>
-<part name="1R42" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
+<part name="1R42" library="resistor" deviceset="R-EU_" device="0207/10" value="390"/>
 <part name="1R39" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
-<part name="1R45" library="resistor" deviceset="R-EU_" device="0613/15" value="39"/>
+<part name="1R45" library="resistor" deviceset="R-EU_" device="0207/10" value="39"/>
 <part name="1C19" library="resistor" deviceset="C-EU" device="102-043X133" value="100nx400v"/>
 <part name="1OK1" library="DSS" deviceset="MOC3063M" device="D" value="MOC3063"/>
 <part name="1T1" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600CWRG"/>
@@ -36814,7 +36814,7 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="1R23A" library="resistor" deviceset="R-EU_" device="M0805" value="1M"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="SOLDER2" library="DSS0" deviceset="CON_DIN5" device=""/>
-<part name="1R55" library="resistor" deviceset="R-EU_" device="0204/7" value="3k"/>
+<part name="1R55" library="resistor" deviceset="R-EU_" device="R1206W" value="3k"/>
 <part name="1R8" library="resistor" deviceset="R-EU_" device="M0805" value="1k"/>
 <part name="1R38" library="resistor" deviceset="R-EU_" device="M1206" value="100"/>
 <part name="P+1" library="supply1" deviceset="+24V" device=""/>
@@ -36837,14 +36837,14 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="1R25A" library="resistor" deviceset="R-EU_" device="M0805" value="1M"/>
 <part name="1SJ3" library="jumper" deviceset="SJ" device=""/>
 <part name="1SJ9" library="jumper" deviceset="SJ" device=""/>
-<part name="SV1" library="con-lstb" deviceset="MA05-2" device=""/>
+<part name="FAN_C" library="con-lstb" deviceset="MA05-2" device=""/>
 <part name="PWFAN" library="con-wago-508" deviceset="W237-02P" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="SV3" library="con-lstb" deviceset="MA04-2" device=""/>
+<part name="PREH_C" library="con-lstb" deviceset="MA04-2" device=""/>
 <part name="PWFAN1" library="con-wago-508" deviceset="W237-02P" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -37974,12 +37974,12 @@ J2 t12</text>
 <attribute name="NAME" x="280.67" y="11.43" size="1.778" layer="95"/>
 <attribute name="VALUE" x="292.1" y="19.05" size="1.778" layer="96"/>
 </instance>
-<instance part="SV1" gate="G$1" x="457.2" y="25.4"/>
+<instance part="FAN_C" gate="G$1" x="457.2" y="25.4"/>
 <instance part="PWFAN" gate="-1" x="482.6" y="-13.97" smashed="yes" rot="MR0">
 <attribute name="NAME" x="483.87" y="-13.081" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="PWFAN" gate="-2" x="492.76" y="-22.86" rot="MR0"/>
-<instance part="SV3" gate="G$1" x="457.2" y="49.53"/>
+<instance part="PREH_C" gate="G$1" x="457.2" y="49.53"/>
 <instance part="PWFAN1" gate="-1" x="566.42" y="-12.7" rot="MR0"/>
 <instance part="PWFAN1" gate="-2" x="566.42" y="-17.78" rot="MR0"/>
 <instance part="1D4" gate="A" x="557.53" y="166.37" smashed="yes" rot="MR180">
@@ -38134,8 +38134,8 @@ J2 t12</text>
 <wire x1="533.4" y1="184.15" x2="494.03" y2="184.15" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="6"/>
-<pinref part="SV1" gate="G$1" pin="5"/>
+<pinref part="FAN_C" gate="G$1" pin="6"/>
+<pinref part="FAN_C" gate="G$1" pin="5"/>
 <wire x1="449.58" y1="25.4" x2="464.82" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="25.4" x2="474.98" y2="25.4" width="0.1524" layer="91"/>
 <label x="467.36" y="25.4" size="1.778" layer="95"/>
@@ -38285,8 +38285,8 @@ J2 t12</text>
 <label x="575.31" y="-3.81" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV3" gate="G$1" pin="8"/>
-<pinref part="SV3" gate="G$1" pin="7"/>
+<pinref part="PREH_C" gate="G$1" pin="8"/>
+<pinref part="PREH_C" gate="G$1" pin="7"/>
 <wire x1="449.58" y1="52.07" x2="464.82" y2="52.07" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="52.07" x2="473.71" y2="52.07" width="0.1524" layer="91"/>
 <label x="466.09" y="52.07" size="1.778" layer="95"/>
@@ -38363,8 +38363,8 @@ J2 t12</text>
 <junction x="443.23" y="93.98"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="10"/>
-<pinref part="SV1" gate="G$1" pin="9"/>
+<pinref part="FAN_C" gate="G$1" pin="10"/>
+<pinref part="FAN_C" gate="G$1" pin="9"/>
 <wire x1="449.58" y1="30.48" x2="464.82" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="30.48" x2="474.98" y2="30.48" width="0.1524" layer="91"/>
 <label x="467.36" y="30.48" size="1.778" layer="95"/>
@@ -38450,8 +38450,8 @@ J2 t12</text>
 <pinref part="1D4" gate="A" pin="O4"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="4"/>
-<pinref part="SV1" gate="G$1" pin="3"/>
+<pinref part="FAN_C" gate="G$1" pin="4"/>
+<pinref part="FAN_C" gate="G$1" pin="3"/>
 <wire x1="449.58" y1="22.86" x2="464.82" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="22.86" x2="474.98" y2="22.86" width="0.1524" layer="91"/>
 <label x="467.36" y="22.86" size="1.778" layer="95"/>
@@ -38485,8 +38485,8 @@ J2 t12</text>
 <pinref part="1D4" gate="A" pin="O5"/>
 </segment>
 <segment>
-<pinref part="SV3" gate="G$1" pin="4"/>
-<pinref part="SV3" gate="G$1" pin="3"/>
+<pinref part="PREH_C" gate="G$1" pin="4"/>
+<pinref part="PREH_C" gate="G$1" pin="3"/>
 <wire x1="449.58" y1="46.99" x2="464.82" y2="46.99" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="46.99" x2="473.71" y2="46.99" width="0.1524" layer="91"/>
 <label x="466.09" y="46.99" size="1.778" layer="95"/>
@@ -38914,15 +38914,15 @@ J2 t12</text>
 <pinref part="SOLDER1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="8"/>
-<pinref part="SV1" gate="G$1" pin="7"/>
+<pinref part="FAN_C" gate="G$1" pin="8"/>
+<pinref part="FAN_C" gate="G$1" pin="7"/>
 <wire x1="449.58" y1="27.94" x2="464.82" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="27.94" x2="474.98" y2="27.94" width="0.1524" layer="91"/>
 <label x="467.36" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV3" gate="G$1" pin="6"/>
-<pinref part="SV3" gate="G$1" pin="5"/>
+<pinref part="PREH_C" gate="G$1" pin="6"/>
+<pinref part="PREH_C" gate="G$1" pin="5"/>
 <wire x1="449.58" y1="49.53" x2="464.82" y2="49.53" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="49.53" x2="473.71" y2="49.53" width="0.1524" layer="91"/>
 <label x="466.09" y="49.53" size="1.778" layer="95"/>
@@ -39410,15 +39410,15 @@ J2 t12</text>
 <wire x1="287.02" y1="66.04" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="2"/>
-<pinref part="SV1" gate="G$1" pin="1"/>
+<pinref part="FAN_C" gate="G$1" pin="2"/>
+<pinref part="FAN_C" gate="G$1" pin="1"/>
 <wire x1="449.58" y1="20.32" x2="464.82" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="20.32" x2="474.98" y2="20.32" width="0.1524" layer="91"/>
 <label x="467.36" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV3" gate="G$1" pin="2"/>
-<pinref part="SV3" gate="G$1" pin="1"/>
+<pinref part="PREH_C" gate="G$1" pin="2"/>
+<pinref part="PREH_C" gate="G$1" pin="1"/>
 <wire x1="449.58" y1="44.45" x2="464.82" y2="44.45" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="44.45" x2="473.71" y2="44.45" width="0.1524" layer="91"/>
 <label x="466.09" y="44.45" size="1.778" layer="95"/>
