@@ -36528,7 +36528,7 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <attribute name="OC_FARNELL" value="9753451"/>
 <attribute name="OC_NEWARK" value="29M3118"/>
 </part>
-<part name="3C10" library="resistor" deviceset="C-EU" device="050-035X075" value="470x2kv_K15-5"/>
+<part name="3C10" library="resistor" deviceset="C-EU" device="075-032X103" value="470x2kv_K15-5"/>
 <part name="3D2" library="v-reg" deviceset="78XXS" device="" value="7805"/>
 <part name="3C14" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="100x16v"/>
 <part name="1OK3" library="DSS" deviceset="MOC3063M" device="D" value="MOC3063"/>
@@ -36678,7 +36678,7 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="P+22" library="supply1" deviceset="~220V_A" device="" value="~220V_A"/>
 <part name="3VT1" library="transistor-power" deviceset="IRF740" device="" value="IRF740"/>
 <part name="3VT2" library="transistor-power" deviceset="IRF740" device="" value="IRF740"/>
-<part name="3R6" library="resistor" deviceset="R-EU_" device="M0805" value="27"/>
+<part name="3R6" library="resistor" deviceset="R-EU_" device="0207/10" value="27"/>
 <part name="3R4" library="resistor" deviceset="R-EU_" device="M0805" value="15k"/>
 <part name="3C6" library="resistor" deviceset="C-EU" device="050-025X075" value="1n"/>
 <part name="3VD4" library="diode" deviceset="1N4004" device="" value="SF36"/>
@@ -36689,7 +36689,7 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="3B1" library="DSS" deviceset="RECTIFIER" device="D3SBA60" value="D3SBA60"/>
 <part name="3VD2" library="diode" deviceset="1N4004" device="" value="1N4007"/>
 <part name="3VDD3" library="diode" deviceset="1N4004" device="" value="1N4007"/>
-<part name="3R3" library="resistor" deviceset="R-EU_" device="0613/5V" value="36k 2w"/>
+<part name="3R3" library="resistor" deviceset="R-EU_" device="0613/15" value="36k 2w"/>
 <part name="3C5" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="100x25v"/>
 <part name="3C7" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="4.7x25v"/>
 <part name="3R7" library="resistor" deviceset="R-EU_" device="0613/5V" value="100 0.5w"/>
@@ -36735,7 +36735,7 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="U$1" library="DSS" deviceset="R2W" device=""/>
 <part name="U$4" library="DSS" deviceset="R0.5W" device=""/>
 <part name="3D1" library="DSS" deviceset="IR2153" device="D" value="IR2153D"/>
-<part name="J1" library="jumper" deviceset="J" device="5MM"/>
+<part name="J1" library="jumper" deviceset="J" device="7MM" value="J7MM"/>
 <part name="MFRAME" library="DSS" deviceset="_SYMBOL" device="_MFRAME"/>
 <part name="PWO" library="con-wago-508" deviceset="W237-02P" device=""/>
 <part name="PWI" library="con-wago-508" deviceset="W237-02P" device="">
@@ -36781,7 +36781,7 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="4R13" library="resistor" deviceset="R-EU_" device="0207/10" value="470"/>
 <part name="4R14" library="resistor" deviceset="R-EU_" device="M0805" value="470"/>
 <part name="MFRAME_D" library="DSS" deviceset="_SYMBOL" device="_MFRAME"/>
-<part name="3R5" library="resistor" deviceset="R-EU_" device="M0805" value="27"/>
+<part name="3R5" library="resistor" deviceset="R-EU_" device="0207/7" value="27"/>
 <part name="4VD8" library="diode" deviceset="DIODE-" device="SOD80C"/>
 <part name="DISPL2" library="con-lstb" deviceset="MA03-2" device=""/>
 <part name="LED2" library="DSS0" deviceset="MA04-2" device=""/>
