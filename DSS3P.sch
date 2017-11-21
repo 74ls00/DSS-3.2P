@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
@@ -36533,21 +36533,21 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="3C14" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="100x16v"/>
 <part name="1OK3" library="DSS" deviceset="MOC3063M" device="D" value="MOC3063"/>
 <part name="1T3" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600CWRG"/>
-<part name="1R35" library="resistor" deviceset="R-EU_" device="M0805" value="510"/>
+<part name="1R35" library="resistor" deviceset="R-EU_" device="0207/10" value="510"/>
 <part name="1R42" library="resistor" deviceset="R-EU_" device="0207/10" value="390"/>
 <part name="1R39" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R45" library="resistor" deviceset="R-EU_" device="0207/10" value="39"/>
 <part name="1C19" library="resistor" deviceset="C-EU" device="102-043X133" value="100nx400v"/>
 <part name="1OK1" library="DSS" deviceset="MOC3063M" device="D" value="MOC3063"/>
 <part name="1T1" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600CWRG"/>
-<part name="1R33" library="resistor" deviceset="R-EU_" device="M0805" value="510"/>
+<part name="1R33" library="resistor" deviceset="R-EU_" device="0207/10" value="510"/>
 <part name="1R40" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R36" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R43" library="resistor" deviceset="R-EU_" device="0613/15" value="39"/>
 <part name="1C17" library="resistor" deviceset="C-EU" device="102-043X133" value="100nx400v"/>
 <part name="1OK2" library="DSS" deviceset="MOC3063M" device="D" value="MOC3063"/>
 <part name="1T2" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600CWRG"/>
-<part name="1R34" library="resistor" deviceset="R-EU_" device="M0805" value="510"/>
+<part name="1R34" library="resistor" deviceset="R-EU_" device="0207/10" value="510"/>
 <part name="1R41" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R37" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R44" library="resistor" deviceset="R-EU_" device="0613/15" value="39"/>
@@ -36964,8 +36964,8 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <text x="22.86" y="262.89" size="1.778" layer="91" rot="R90">invert2</text>
 <text x="36.83" y="60.96" size="1.778" layer="94">1A</text>
 <text x="20.32" y="60.96" size="1.778" layer="94">6A</text>
-<wire x1="11.43" y1="285.75" x2="273.05" y2="285.75" width="0.4064" layer="90"/>
-<wire x1="273.05" y1="285.75" x2="273.05" y2="137.16" width="0.4064" layer="90"/>
+<wire x1="11.43" y1="284.48" x2="273.05" y2="284.48" width="0.4064" layer="90"/>
+<wire x1="273.05" y1="284.48" x2="273.05" y2="137.16" width="0.4064" layer="90"/>
 <wire x1="273.05" y1="137.16" x2="208.28" y2="137.16" width="0.4064" layer="90"/>
 <wire x1="208.28" y1="137.16" x2="208.28" y2="128.27" width="0.4064" layer="90"/>
 <wire x1="208.28" y1="128.27" x2="74.93" y2="128.27" width="0.4064" layer="90"/>
@@ -36973,7 +36973,7 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <wire x1="74.93" y1="91.44" x2="53.34" y2="91.44" width="0.4064" layer="90"/>
 <wire x1="53.34" y1="91.44" x2="53.34" y2="58.42" width="0.4064" layer="90"/>
 <wire x1="53.34" y1="58.42" x2="11.43" y2="58.42" width="0.4064" layer="90"/>
-<wire x1="11.43" y1="58.42" x2="11.43" y2="285.75" width="0.4064" layer="90"/>
+<wire x1="11.43" y1="58.42" x2="11.43" y2="284.48" width="0.4064" layer="90"/>
 <text x="292.1" y="73.66" size="1.778" layer="91">900
 3 H+
 5 H-
@@ -38057,7 +38057,7 @@ J2 t12</text>
 <attribute name="VALUE" x="548.64" y="156.21" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="U$2" gate="G$1" x="139.7" y="19.05"/>
-<instance part="GND1" gate="1" x="162.56" y="3.81" rot="MR0"/>
+<instance part="GND1" gate="1" x="162.56" y="5.08" rot="MR0"/>
 <instance part="S_REL" gate="G$1" x="589.28" y="162.56" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="590.55" y="154.94" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="593.09" y="168.402" size="1.778" layer="95" rot="MR0"/>
@@ -39020,7 +39020,7 @@ J2 t12</text>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="160.02" y1="13.97" x2="162.56" y2="13.97" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="162.56" y1="13.97" x2="162.56" y2="6.35" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="13.97" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$71" class="0">
@@ -41310,13 +41310,13 @@ J2 t12</text>
 <net name="HL6" class="0">
 <segment>
 <pinref part="4J4" gate="G$1" pin="2"/>
-<wire x1="110.49" y1="279.4" x2="113.03" y2="279.4" width="0.1524" layer="91"/>
-<label x="110.49" y="276.86" size="1.778" layer="95"/>
+<wire x1="110.49" y1="279.4" x2="116.84" y2="279.4" width="0.1524" layer="91"/>
+<label x="111.76" y="279.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="4HL6" gate="G$1" pin="A"/>
 <wire x1="97.79" y1="250.19" x2="102.87" y2="250.19" width="0.1524" layer="91"/>
-<label x="100.33" y="250.19" size="1.778" layer="95"/>
+<label x="99.06" y="250.19" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$130" class="0">
