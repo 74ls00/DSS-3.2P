@@ -1,5 +1,5 @@
 [Eagle]
-Version="06 04 00"
+Version="06 03 00"
 Platform="Windows"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -10,22 +10,12 @@ AutoSaveProject=1
 UsedLibrary="DSS0.lbr"
 
 [Win_1]
-Type="Control Panel"
-Loc="536 306 1135 705"
-State=0
-Number=0
-
-[Win_2]
 Type="Schematic Editor"
-Loc="521 1 1672 973"
+Loc="128 0 1279 961"
 State=0
 Number=2
 File="DSS3P.sch"
-<<<<<<< HEAD
-View="326.497 200.727 368.427 242.658"
-=======
 View="340.593 180.981 382.524 222.912"
->>>>>>> 3b10f437c199d85b5999781a744a2ebce7b676bb
 WireWidths=" 0 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.006 0.4064 0.3048 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -36,10 +26,6 @@ TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.9304 2.
 PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
 PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
-DimensionWidths=" 0 0.127 0.254 0.1 0.26 0.13"
-DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
-DimensionExtLengths=" 1.27 2.54 1 2 3 0"
-DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
 SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
 WireBend=2
 WireBendSet=31
@@ -52,9 +38,6 @@ PolygonRank=0
 PolygonThermals=1
 PolygonOrphans=0
 TextRatio=8
-DimensionUnit=1
-DimensionPrecision=2
-DimensionShowUnit=0
 PinDirection=3
 PinFunction=0
 PinLength=2
@@ -64,28 +47,27 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-<<<<<<< HEAD
-Views=" 1: 326.497 200.727 368.427 242.658"
-=======
 Views=" 1: 340.593 180.981 382.524 222.912"
->>>>>>> 3b10f437c199d85b5999781a744a2ebce7b676bb
 Sheet=1
+
+[Win_2]
+Type="Text Editor"
+Loc="382 243 881 742"
+State=2
+Number=1
+File="DSS3P.brd.rpt"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
 
 [Win_3]
 Type="Board Editor"
-Loc="521 3 1677 977"
-State=2
+Loc="123 0 1279 961"
+State=1
 Number=3
 File="DSS3P.brd"
-<<<<<<< HEAD
-View="57.5174 67.3445 266.533 225.173"
-WireWidths=" 0 6.4516 3.81 1 0.254 1.9304 2.54 2.1844 1.27 1.6764 1.778 1.016 0.3048 0.4064 0.6096 0.8128"
-PadDiameters=" 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.54 0 6.4516 3.81 0.3048 0.6096 0.4064 2.1844 2.3114"
-=======
-View="132.901 131.655 165.301 152.07"
+View="103.136 145.788 199.882 206.747"
 WireWidths=" 0 0.254 0.3048 1.6764 1.9304 2.1844 2.54 3.81 6.4516 1.016 1.27 1.4224 0.8128 0.4064 0.6096 1.778"
 PadDiameters=" 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0 2.3114"
->>>>>>> 3b10f437c199d85b5999781a744a2ebce7b676bb
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0 2.3114"
 ViaDrills=" 0.5 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6 0.8"
@@ -93,15 +75,7 @@ HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
 TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778"
 PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
 PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-<<<<<<< HEAD
-MiterRadiuss=" 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0.254 0"
-=======
 MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
-DimensionWidths=" 0 0.127 0.254 0.1 0.26 0.13"
-DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
-DimensionExtLengths=" 1.27 2.54 1 2 3 0"
-DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
->>>>>>> 3b10f437c199d85b5999781a744a2ebce7b676bb
 SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
 WireBend=0
 WireBendSet=0
@@ -114,9 +88,6 @@ PolygonRank=1
 PolygonThermals=1
 PolygonOrphans=0
 TextRatio=8
-DimensionUnit=1
-DimensionPrecision=2
-DimensionShowUnit=0
 PinDirection=3
 PinFunction=0
 PinLength=2
@@ -127,17 +98,15 @@ AddLevel=2
 PadsSameType=0
 Layer=16
 
-<<<<<<< HEAD
 [Win_4]
 Type="Control Panel"
 Loc="153 405 752 777"
 State=2
 Number=0
 
-=======
->>>>>>> 3b10f437c199d85b5999781a744a2ebce7b676bb
 [Desktop]
-Screen="1680 1050"
+Screen="1280 1024"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
+Window="Win_4"
