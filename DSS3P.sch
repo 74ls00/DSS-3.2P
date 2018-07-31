@@ -40596,13 +40596,6 @@ J2 t12</text>
 <wire x1="267.97" y1="256.54" x2="267.97" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$125" class="0">
-<segment>
-<pinref part="4VT1" gate="G$1" pin="C"/>
-<wire x1="589.28" y1="210.82" x2="589.28" y2="212.09" width="0.1524" layer="91"/>
-<label x="588.01" y="212.09" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
 <net name="N$126" class="0">
 <segment>
 <pinref part="4HL22" gate="G$1" pin="A"/>
@@ -40653,7 +40646,7 @@ J2 t12</text>
 <wire x1="335.28" y1="193.04" x2="327.66" y2="193.04" width="0.1524" layer="91" style="shortdash"/>
 <junction x="327.66" y="193.04"/>
 <label x="330.2" y="185.42" size="1.778" layer="95"/>
-<wire x1="327.66" y1="185.42" x2="337.82" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="185.42" x2="340.36" y2="185.42" width="0.1524" layer="91"/>
 <junction x="327.66" y="185.42"/>
 </segment>
 </net>
@@ -41994,6 +41987,13 @@ J2 t12</text>
 <wire x1="505.46" y1="220.98" x2="502.92" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="AVR_ISP" gate="G$1" pin="7"/>
 <wire x1="502.92" y1="220.98" x2="502.92" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="4VT1" gate="G$1" pin="C"/>
+<wire x1="589.28" y1="210.82" x2="589.28" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="589.28" y1="213.36" x2="584.2" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
