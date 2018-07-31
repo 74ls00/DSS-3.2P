@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
@@ -18282,14 +18282,6 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+24V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="+12V">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="~220V_A">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
@@ -18348,19 +18340,6 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+24V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+12V" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="+12V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -36480,6 +36459,56 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 </deviceset>
 </devicesets>
 </library>
+<library name="pinhead">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X01">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PINHD1">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-1X1" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -36738,7 +36767,6 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="4R9" library="resistor" deviceset="R-EU_" device="M0805" value="470"/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="4R12" library="resistor" deviceset="R-EU_" device="M0805" value="1k"/>
-<part name="4VD13" library="diode" deviceset="1N4148" device="DO35-7" value=""/>
 <part name="4C4" library="rcl" deviceset="C-EU" device="C1210" value="1mf"/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="AVR_ISP" library="DSS0" deviceset="USB" device="" value="PROG_PC"/>
@@ -36746,7 +36774,6 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="+24V" device=""/>
-<part name="P+32" library="supply1" deviceset="+12V" device=""/>
 <part name="4C1" library="resistor" deviceset="C-EU" device="050-025X075" value="100n"/>
 <part name="4C2" library="resistor" deviceset="C-EU" device="050-025X075" value="100n"/>
 <part name="4C3" library="resistor" deviceset="C-EU" device="050-025X075" value="100n"/>
@@ -36950,6 +36977,11 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="2J7" library="resistor" deviceset="R-EU_" device="R3225W" value="0"/>
 <part name="VD1" library="diode" deviceset="1N4148" device="DO35-7"/>
 <part name="1VD3" library="diode" deviceset="DIODE-" device="SOD80C" value="LL4148"/>
+<part name="4VD13" library="diode" deviceset="DIODE-" device="SOD80C" value="LL4148"/>
+<part name="S2_S" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="+12V" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="3C8" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="100x16v"/>
+<part name="GND2" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -37595,10 +37627,6 @@ J2 t12</text>
 <attribute name="NAME" x="601.98" y="191.9986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="604.266" y="189.484" size="1.778" layer="96"/>
 </instance>
-<instance part="4VD13" gate="G$1" x="609.6" y="160.02" smashed="yes" rot="MR90">
-<attribute name="NAME" x="606.044" y="157.4546" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="607.2886" y="162.56" size="1.778" layer="96" rot="MR90"/>
-</instance>
 <instance part="4C4" gate="G$1" x="601.98" y="200.66" rot="R180"/>
 <instance part="GND34" gate="1" x="601.98" y="186.69" rot="MR0"/>
 <instance part="AVR_ISP" gate="G$1" x="502.92" y="231.14" rot="R90"/>
@@ -37606,9 +37634,6 @@ J2 t12</text>
 <instance part="GND35" gate="1" x="187.96" y="49.53" rot="MR0"/>
 <instance part="GND36" gate="1" x="198.12" y="48.26" rot="MR0"/>
 <instance part="P+10" gate="1" x="194.31" y="24.13" rot="R270"/>
-<instance part="P+32" gate="1" x="194.31" y="41.91" smashed="yes" rot="R270">
-<attribute name="VALUE" x="196.85" y="39.37" size="1.778" layer="96"/>
-</instance>
 <instance part="4C1" gate="G$1" x="31.75" y="163.83" rot="MR0"/>
 <instance part="4C2" gate="G$1" x="41.91" y="163.83" rot="MR0"/>
 <instance part="4C3" gate="G$1" x="52.07" y="163.83" rot="MR0"/>
@@ -38116,6 +38141,17 @@ J2 t12</text>
 <attribute name="NAME" x="419.5826" y="182.88" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="416.7886" y="180.34" size="1.778" layer="96" rot="MR90"/>
 </instance>
+<instance part="4VD13" gate="G$1" x="609.6" y="160.02" smashed="yes" rot="MR90">
+<attribute name="NAME" x="607.06" y="161.7726" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="607.06" y="158.9786" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="S2_S" gate="G$1" x="576.58" y="213.36" rot="R180"/>
+<instance part="+12V" gate="G$1" x="199.39" y="41.91" smashed="yes">
+<attribute name="NAME" x="193.04" y="36.195" size="1.778" layer="95"/>
+<attribute name="VALUE" x="193.04" y="36.83" size="1.778" layer="96"/>
+</instance>
+<instance part="3C8" gate="G$1" x="213.36" y="58.42"/>
+<instance part="GND2" gate="1" x="213.36" y="48.26" rot="MR0"/>
 </instances>
 <busses>
 <bus name="A,B,C,D,E,F,G,H,HL6">
@@ -39086,6 +39122,11 @@ J2 t12</text>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="162.56" y1="13.97" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="3C8" gate="G$1" pin="-"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="213.36" y1="53.34" x2="213.36" y2="50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$71" class="0">
 <segment>
@@ -39466,6 +39507,9 @@ J2 t12</text>
 <wire x1="198.12" y1="68.58" x2="198.12" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
 <junction x="198.12" y="63.5"/>
+<pinref part="3C8" gate="G$1" pin="+"/>
+<wire x1="213.36" y1="60.96" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="63.5" x2="198.12" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+5V"/>
@@ -39568,18 +39612,6 @@ J2 t12</text>
 <wire x1="572.77" y1="242.57" x2="570.23" y2="242.57" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+24V"/>
 <wire x1="570.23" y1="242.57" x2="570.23" y2="245.11" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="+12V" class="0">
-<segment>
-<pinref part="3VD8" gate="1" pin="C"/>
-<wire x1="168.91" y1="39.37" x2="168.91" y2="41.91" width="0.1524" layer="91"/>
-<wire x1="168.91" y1="41.91" x2="181.61" y2="41.91" width="0.1524" layer="91"/>
-<pinref part="P+32" gate="1" pin="+12V"/>
-<pinref part="3C15" gate="G$1" pin="+"/>
-<wire x1="181.61" y1="41.91" x2="191.77" y2="41.91" width="0.1524" layer="91"/>
-<wire x1="181.61" y1="39.37" x2="181.61" y2="41.91" width="0.1524" layer="91"/>
-<junction x="181.61" y="41.91"/>
 </segment>
 </net>
 <net name="~220V_A" class="0">
@@ -41993,7 +42025,20 @@ J2 t12</text>
 <segment>
 <pinref part="4VT1" gate="G$1" pin="C"/>
 <wire x1="589.28" y1="210.82" x2="589.28" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="589.28" y1="213.36" x2="584.2" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="S2_S" gate="G$1" pin="1"/>
+<wire x1="589.28" y1="213.36" x2="579.12" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$80" class="0">
+<segment>
+<pinref part="3VD8" gate="1" pin="C"/>
+<wire x1="168.91" y1="39.37" x2="168.91" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="168.91" y1="41.91" x2="181.61" y2="41.91" width="0.1524" layer="91"/>
+<pinref part="3C15" gate="G$1" pin="+"/>
+<wire x1="181.61" y1="41.91" x2="196.85" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="39.37" x2="181.61" y2="41.91" width="0.1524" layer="91"/>
+<junction x="181.61" y="41.91"/>
+<pinref part="+12V" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
