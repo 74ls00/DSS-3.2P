@@ -41581,7 +41581,7 @@ J2 t12</text>
 <pinref part="2VT1" gate="G$1" pin="B"/>
 </segment>
 </net>
-<net name="N$159" class="0">
+<net name="GND$159" class="0">
 <segment>
 <pinref part="2D2" gate="P" pin="GND"/>
 <pinref part="2J1" gate="G$1" pin="2"/>
@@ -41609,7 +41609,7 @@ J2 t12</text>
 <label x="330.2" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$80" class="0">
+<net name="GND$80" class="0">
 <segment>
 <wire x1="320.04" y1="233.68" x2="317.5" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="2D1" gate="G$1" pin="GND"/>
