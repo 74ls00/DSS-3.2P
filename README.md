@@ -1,6 +1,6 @@
-Просмотреть этот проект на [CADLAB.io](https://cadlab.io/project/1240) ![cadlab.favicon32px](https://cadlab.io/sites/all/themes/custom/diy/favicon.png) 
+### Просмотреть этот проект на [CADLAB.io](https://cadlab.io/project/1240) ![cadlab.favicon32px](https://cadlab.io/sites/all/themes/custom/diy/favicon.png) 
 
-Прошлая конструкция [DSS-3V](https://github.com/74ls00/DSS-3V)
+### Прошлая конструкция [DSS-3V](https://github.com/74ls00/DSS-3V)
 
 Компактный вариант лёгкой паяльной станции на базе доступных в продаже комплектующих.
 
