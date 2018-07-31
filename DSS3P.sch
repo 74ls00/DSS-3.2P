@@ -37876,9 +37876,9 @@ J2 t12</text>
 <attribute name="NAME" x="283.21" y="186.9186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="284.48" y="184.658" size="1.778" layer="96"/>
 </instance>
-<instance part="2J2" gate="G$1" x="358.14" y="203.2" smashed="yes">
-<attribute name="NAME" x="354.33" y="199.6186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="364.49" y="201.422" size="1.778" layer="96" rot="R180"/>
+<instance part="2J2" gate="G$1" x="358.14" y="175.26" smashed="yes">
+<attribute name="NAME" x="354.33" y="171.6786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="364.49" y="173.482" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="2VT1" gate="G$1" x="299.72" y="185.42" smashed="yes" rot="MR0">
 <attribute name="NAME" x="309.88" y="177.8" size="1.778" layer="95" rot="MR0"/>
@@ -41362,7 +41362,7 @@ J2 t12</text>
 <label x="426.72" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="VCC_CH340G" class="0">
 <segment>
 <wire x1="347.98" y1="210.82" x2="347.98" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="218.44" x2="347.98" y2="233.68" width="0.1524" layer="91"/>
@@ -41492,9 +41492,9 @@ J2 t12</text>
 <label x="317.5" y="236.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="347.98" y="203.2" size="1.778" layer="95"/>
-<wire x1="347.98" y1="203.2" x2="353.06" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="2J2" gate="G$1" pin="1"/>
+<label x="355.6" y="203.2" size="1.778" layer="95"/>
+<wire x1="355.6" y1="203.2" x2="368.3" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="2D2" gate="B" pin="A4"/>
 </segment>
 <segment>
 <pinref part="2D2" gate="A" pin="A1"/>
@@ -41586,13 +41586,6 @@ J2 t12</text>
 <pinref part="2D2" gate="P" pin="GND"/>
 <pinref part="2J1" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="193.04" x2="289.56" y2="190.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$157" class="0">
-<segment>
-<pinref part="2J2" gate="G$1" pin="2"/>
-<pinref part="2D2" gate="B" pin="A4"/>
-<wire x1="363.22" y1="203.2" x2="368.3" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3" class="0">
