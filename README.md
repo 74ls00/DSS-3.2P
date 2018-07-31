@@ -1,5 +1,4 @@
 Просмотреть этот проект на [CADLAB.io](https://cadlab.io/project/1240) ![](https://cadlab.io/sites/all/themes/custom/diy/favicon.png) 
-<img src="https://cadlab.io/sites/all/themes/custom/diy/favicon.png" alt="" style="width: 16px;"/>
 
 Компактный вариант лёгкой паяльной станции на базе доступных в продаже комплектующих.
 
