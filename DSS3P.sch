@@ -36530,7 +36530,6 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="SG1" library="buzzer" deviceset="F/CM12P" device=""/>
 <part name="1R32" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="1VD1" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="VD2" library="diode" deviceset="1N4148" device="DO35-7"/>
 <part name="1R30" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
 <part name="1D1" library="linear" deviceset="LM358" device="D" value="LM358D"/>
 <part name="1D2" library="linear" deviceset="LM358" device="D" value="LM358D"/>
@@ -36949,6 +36948,8 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
 <part name="P+20" library="supply1" deviceset="VCC" device=""/>
 <part name="2J7" library="resistor" deviceset="R-EU_" device="R3225W" value="0"/>
+<part name="VD1" library="diode" deviceset="1N4148" device="DO35-7"/>
+<part name="2VD3" library="diode" deviceset="DIODE-" device="SOD80C" value="LL4148"/>
 </parts>
 <sheets>
 <sheet>
@@ -37127,9 +37128,6 @@ J2 t12</text>
 </instance>
 <instance part="1VD1" gate="G$1" x="421.64" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="418.5666" y="166.37" size="1.778" layer="95" rot="R270"/>
-</instance>
-<instance part="VD2" gate="G$1" x="424.18" y="185.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="427.2534" y="177.8" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="1R30" gate="G$1" x="539.75" y="210.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="532.13" y="208.5086" size="1.778" layer="95"/>
@@ -38111,6 +38109,13 @@ J2 t12</text>
 <attribute name="NAME" x="509.0414" y="209.55" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="507.238" y="219.71" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="VD1" gate="G$1" x="378.46" y="175.26" smashed="yes" rot="R270">
+<attribute name="NAME" x="381.5334" y="167.64" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="2VD3" gate="G$1" x="424.18" y="185.42" smashed="yes" rot="MR270">
+<attribute name="NAME" x="419.5826" y="182.88" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="416.7886" y="180.34" size="1.778" layer="96" rot="MR90"/>
+</instance>
 </instances>
 <busses>
 <bus name="A,B,C,D,E,F,G,H,HL6">
@@ -38531,7 +38536,6 @@ J2 t12</text>
 <pinref part="1D3" gate="1" pin="AVCC"/>
 <pinref part="1VD1" gate="G$1" pin="C"/>
 <pinref part="1D3" gate="1" pin="VCC@1"/>
-<pinref part="VD2" gate="G$1" pin="C"/>
 <wire x1="424.18" y1="182.88" x2="424.18" y2="162.56" width="0.1524" layer="91"/>
 <junction x="424.18" y="162.56"/>
 <wire x1="421.64" y1="160.02" x2="421.64" y2="162.56" width="0.1524" layer="91"/>
@@ -38541,6 +38545,7 @@ J2 t12</text>
 <junction x="421.64" y="162.56"/>
 <pinref part="P+19" gate="VCC" pin="VCC"/>
 <wire x1="416.56" y1="162.56" x2="421.64" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="2VD3" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="2D2" gate="P" pin="VCC"/>
@@ -38569,12 +38574,12 @@ J2 t12</text>
 <net name="V_PROG" class="0">
 <segment>
 <label x="423.672" y="198.12" size="1.778" layer="95" rot="R90"/>
-<pinref part="VD2" gate="G$1" pin="A"/>
 <wire x1="424.18" y1="187.96" x2="424.18" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="424.18" y1="210.82" x2="482.6" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="482.6" y1="210.82" x2="482.6" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="AVR_ISP" gate="G$1" pin="2"/>
 <wire x1="482.6" y1="238.76" x2="495.3" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="2VD3" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="POWER-" class="0">
