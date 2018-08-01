@@ -38338,7 +38338,7 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="2VD1" library="diode" deviceset="DIODE-" device="SOD80C" value="LL4148"/>
 <part name="2R3" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="2R4" library="resistor" deviceset="R-EU_" device="0207/10" value="1k"/>
+<part name="2R4" library="resistor" deviceset="R-EU_" device="M1206" value="1k"/>
 <part name="2R5" library="resistor" deviceset="R-EU_" device="M0805" value="5k6"/>
 <part name="2R6" library="resistor" deviceset="R-EU_" device="M0805" value="1k"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
