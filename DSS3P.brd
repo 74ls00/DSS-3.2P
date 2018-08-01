@@ -4225,7 +4225,7 @@ by R. Vogg  15.March.2002</description>
 <attribute name="VALUE" x="85.979" y="60.8965" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="1R31" library="resistor" package="0207/10" value="33k" x="136.525" y="132.715" rot="R270"/>
-<element name="1VT1" library="transistor" package="TO92-ECB" value="" x="127.3175" y="153.035" rot="R270"/>
+<element name="1VT1" library="transistor" package="TO92-ECB" value="" x="127.3175" y="152.7175" rot="R270"/>
 <element name="SG1" library="buzzer" package="F/CM12P" value="F/CM12P" x="117.7925" y="153.035" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="-47.307496875" y="215.265003125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-47.307496875" y="215.265003125" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5572,7 +5572,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="154.94" y1="144.4625" x2="154.94" y2="137.795" width="0.8128" layer="16"/>
 <wire x1="152.7175" y1="137.795" x2="154.94" y2="137.795" width="1.27" layer="16"/>
 <wire x1="154.94" y1="125.73" x2="153.3525" y2="124.46" width="1.27" layer="16"/>
-<wire x1="127.3175" y1="155.575" x2="127.3175" y2="158.115" width="0.6096" layer="16"/>
+<wire x1="127.3175" y1="155.2575" x2="127.3175" y2="158.115" width="0.6096" layer="16"/>
 <wire x1="127.3175" y1="158.115" x2="128.905" y2="159.7025" width="0.6096" layer="16"/>
 <wire x1="128.905" y1="159.7025" x2="133.985" y2="159.7025" width="0.6096" layer="16"/>
 <wire x1="133.985" y1="159.7025" x2="137.795" y2="162.8775" width="0.6096" layer="16"/>
@@ -5970,7 +5970,7 @@ by R. Vogg  15.March.2002</description>
 <signal name="N$23">
 <contactref element="1VT1" pad="B"/>
 <contactref element="1R32" pad="1"/>
-<wire x1="126.0475" y1="147.9525" x2="127.3175" y2="150.495" width="0.6096" layer="16"/>
+<wire x1="126.0475" y1="147.9525" x2="127.3175" y2="150.1775" width="0.6096" layer="16"/>
 </signal>
 <signal name="V_PROG">
 <contactref element="AVR_ISP" pad="2"/>
@@ -6696,7 +6696,7 @@ by R. Vogg  15.March.2002</description>
 <signal name="N$8">
 <contactref element="1VT1" pad="C"/>
 <contactref element="SG1" pad="-"/>
-<wire x1="121.6025" y1="153.035" x2="127.3175" y2="153.035" width="0.6096" layer="16"/>
+<wire x1="121.6025" y1="153.035" x2="127.3175" y2="152.7175" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$14">
 <contactref element="3VT1" pad="S"/>
