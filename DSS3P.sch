@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -38122,7 +38122,7 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="3VD8" library="diode" deviceset="BYV32" device=""/>
 <part name="3B1" library="DSS" deviceset="RECTIFIER" device="D3SBA60" value="D3SBA60"/>
 <part name="3VD2" library="diode" deviceset="1N4004" device="" value="1N4007"/>
-<part name="3VDD3" library="diode" deviceset="1N4004" device="" value="1N4007"/>
+<part name="3VD3" library="diode" deviceset="1N4004" device="" value="1N4007"/>
 <part name="3R3" library="resistor" deviceset="R-EU_" device="0613/15" value="36k 2w"/>
 <part name="3C5" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="100x25v"/>
 <part name="3C7" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="4.7x25v"/>
@@ -38916,7 +38916,7 @@ J2 t12</text>
 <attribute name="NAME" x="67.31" y="85.5726" size="1.778" layer="95"/>
 <attribute name="VALUE" x="64.77" y="82.7786" size="1.778" layer="96"/>
 </instance>
-<instance part="3VDD3" gate="1" x="77.47" y="82.55" smashed="yes" rot="R270">
+<instance part="3VD3" gate="1" x="77.47" y="82.55" smashed="yes" rot="R270">
 <attribute name="NAME" x="64.77" y="77.9526" size="1.778" layer="95"/>
 <attribute name="VALUE" x="64.77" y="75.1586" size="1.778" layer="96"/>
 </instance>
@@ -41313,7 +41313,7 @@ J2 t12</text>
 <pinref part="3VD2" gate="1" pin="C"/>
 <wire x1="82.55" y1="80.01" x2="82.55" y2="77.47" width="0.1524" layer="91"/>
 <wire x1="82.55" y1="77.47" x2="80.01" y2="74.93" width="0.1524" layer="91"/>
-<pinref part="3VDD3" gate="1" pin="C"/>
+<pinref part="3VD3" gate="1" pin="C"/>
 <wire x1="80.01" y1="74.93" x2="77.47" y2="77.47" width="0.1524" layer="91"/>
 <wire x1="77.47" y1="77.47" x2="77.47" y2="80.01" width="0.1524" layer="91"/>
 <pinref part="3R3" gate="G$1" pin="2"/>
@@ -42209,7 +42209,7 @@ J2 t12</text>
 <pinref part="3B1" gate="G$1" pin="AC1"/>
 <wire x1="92.71" y1="97.79" x2="92.71" y2="100.33" width="0.1524" layer="91"/>
 <junction x="92.71" y="97.79"/>
-<pinref part="3VDD3" gate="1" pin="A"/>
+<pinref part="3VD3" gate="1" pin="A"/>
 <wire x1="77.47" y1="85.09" x2="77.47" y2="97.79" width="0.1524" layer="91"/>
 <wire x1="92.71" y1="97.79" x2="77.47" y2="97.79" width="0.1524" layer="91"/>
 </segment>
