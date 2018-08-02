@@ -30872,27 +30872,6 @@ Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html</description>
 <wire x1="4.572" y1="-2.794" x2="5.588" y2="-2.794" width="0.1524" layer="21" curve="-180"/>
 <wire x1="3.556" y1="-2.794" x2="4.572" y2="-2.794" width="0.1524" layer="21" curve="180"/>
 </package>
-<package name="ZDMETAL">
-<description>Стабилитрон</description>
-<wire x1="-3.095" y1="3.4825" x2="-3.095" y2="2.4825" width="0.5" layer="21"/>
-<wire x1="-3.095" y1="2.4825" x2="-3.095" y2="-2.5175" width="0.5" layer="21"/>
-<wire x1="-3.095" y1="-2.5175" x2="-3.095" y2="-3.3175" width="0.5" layer="21"/>
-<wire x1="3.905" y1="1.7325" x2="3.905" y2="0.9825" width="0.127" layer="21"/>
-<wire x1="3.905" y1="0.9825" x2="3.905" y2="-1.0175" width="0.127" layer="21"/>
-<wire x1="3.905" y1="-1.0175" x2="3.905" y2="-1.7675" width="0.127" layer="21"/>
-<wire x1="-3.095" y1="2.4825" x2="-5.095" y2="2.4825" width="0.127" layer="21"/>
-<wire x1="-5.095" y1="2.4825" x2="-5.095" y2="-2.5175" width="0.127" layer="21"/>
-<wire x1="-5.095" y1="-2.5175" x2="-3.095" y2="-2.5175" width="0.127" layer="21"/>
-<wire x1="3.905" y1="0.9825" x2="9.905" y2="0.9825" width="0.127" layer="21"/>
-<wire x1="9.905" y1="0.9825" x2="9.905" y2="-1.0175" width="0.127" layer="21"/>
-<wire x1="9.905" y1="-1.0175" x2="3.905" y2="-1.0175" width="0.127" layer="21"/>
-<pad name="C" x="-8.095" y="0" drill="1.2" diameter="2.5"/>
-<pad name="A" x="12.27" y="0" drill="0.8" diameter="2"/>
-<wire x1="3.155" y1="2.4825" x2="-3.095" y2="2.4825" width="0.127" layer="21"/>
-<wire x1="3.155" y1="-2.5175" x2="-3.095" y2="-2.5175" width="0.127" layer="21"/>
-<wire x1="3.9" y1="1.75" x2="3.2" y2="2.45" width="0.127" layer="21"/>
-<wire x1="3.9" y1="-1.8" x2="3.2" y2="-2.5" width="0.127" layer="21"/>
-</package>
 <package name="BFRAME">
 <description>Нижняя плата</description>
 <wire x1="122.555" y1="-18.415" x2="122.555" y2="-162.56" width="0.2" layer="20"/>
@@ -31297,18 +31276,6 @@ Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html</description>
 <wire x1="2.54" y1="2.54" x2="2.2225" y2="2.54" width="0.0508" layer="94"/>
 <wire x1="7.9375" y1="2.54" x2="7.62" y2="2.54" width="0.0508" layer="94"/>
 </symbol>
-<symbol name="ZD">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
 <symbol name="TS2">
 <wire x1="0" y1="1.905" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="1.905" x2="-3.175" y2="1.905" width="0.254" layer="94"/>
@@ -31701,22 +31668,6 @@ Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html</description>
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ZD">
-<gates>
-<gate name="G$1" symbol="ZD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="D814" package="ZDMETAL">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -33611,6 +33562,29 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <text x="-7.3025" y="2.2225" size="1.27" layer="25">&gt;NAME</text>
 <text x="-7.3025" y="-2.8575" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="ZDMETAL">
+<description>Стабилитрон</description>
+<wire x1="-3.095" y1="3.4825" x2="-3.095" y2="2.4825" width="0.5" layer="21"/>
+<wire x1="-3.095" y1="2.4825" x2="-3.095" y2="-2.5175" width="0.5" layer="21"/>
+<wire x1="-3.095" y1="-2.5175" x2="-3.095" y2="-3.3175" width="0.5" layer="21"/>
+<wire x1="3.905" y1="1.7325" x2="3.905" y2="0.9825" width="0.127" layer="21"/>
+<wire x1="3.905" y1="0.9825" x2="3.905" y2="-1.0175" width="0.127" layer="21"/>
+<wire x1="3.905" y1="-1.0175" x2="3.905" y2="-1.7675" width="0.127" layer="21"/>
+<wire x1="-3.095" y1="2.4825" x2="-5.095" y2="2.4825" width="0.127" layer="21"/>
+<wire x1="-5.095" y1="2.4825" x2="-5.095" y2="-2.5175" width="0.127" layer="21"/>
+<wire x1="-5.095" y1="-2.5175" x2="-3.095" y2="-2.5175" width="0.127" layer="21"/>
+<wire x1="3.905" y1="0.9825" x2="9.905" y2="0.9825" width="0.127" layer="21"/>
+<wire x1="9.905" y1="0.9825" x2="9.905" y2="-1.0175" width="0.127" layer="21"/>
+<wire x1="9.905" y1="-1.0175" x2="3.905" y2="-1.0175" width="0.127" layer="21"/>
+<pad name="C" x="-8.095" y="0" drill="1.2" diameter="2.5"/>
+<pad name="A" x="12.27" y="0" drill="0.8" diameter="2"/>
+<wire x1="3.155" y1="2.4825" x2="-3.095" y2="2.4825" width="0.127" layer="21"/>
+<wire x1="3.155" y1="-2.5175" x2="-3.095" y2="-2.5175" width="0.127" layer="21"/>
+<wire x1="3.9" y1="1.75" x2="3.2" y2="2.45" width="0.127" layer="21"/>
+<wire x1="3.9" y1="-1.8" x2="3.2" y2="-2.5" width="0.127" layer="21"/>
+<text x="-1.27" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="7SEG-3-COM">
@@ -34093,6 +34067,18 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="ZD">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -34745,6 +34731,22 @@ Source: www.kingbright.com</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZD">
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="D814" package="ZDMETAL">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -38191,7 +38193,6 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="3VD6" library="diode" deviceset="DIODE-" device="DO214AC" value="SS14"/>
 <part name="U$5" library="DSS" deviceset="R1W" device=""/>
 <part name="U$6" library="DSS" deviceset="R1W" device=""/>
-<part name="3VD1" library="DSS" deviceset="ZD" device="D814" value="D814D"/>
 <part name="L1" library="DSS0" deviceset="LF" device="LF-10X13"/>
 <part name="POW_SW" library="con-amp-quick" deviceset="M02" device="">
 <attribute name="MF" value=""/>
@@ -38368,6 +38369,7 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="3C11" library="DSS0" deviceset="C_POL" device="1" value="150mfx400v"/>
 <part name="3C3" library="DSS0" deviceset="C" device="" value="1Mx250v_K73-17"/>
 <part name="3C4" library="DSS0" deviceset="C" device="" value="1Mx250v_K73-17"/>
+<part name="3VD1" library="DSS0" deviceset="ZD" device="D814" value="D814D"/>
 </parts>
 <sheets>
 <sheet>
@@ -38922,9 +38924,9 @@ J2 t12</text>
 <attribute name="NAME" x="86.106" y="62.0014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="90.17" y="59.182" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="3C5" gate="G$1" x="29.21" y="31.75" smashed="yes" rot="MR0">
-<attribute name="NAME" x="31.623" y="40.1574" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="30.353" y="37.6174" size="1.778" layer="96" rot="MR180"/>
+<instance part="3C5" gate="G$1" x="29.21" y="27.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="31.623" y="36.3474" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="30.353" y="33.8074" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="3C7" gate="G$1" x="67.31" y="49.53" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.833" y="50.0126" size="1.778" layer="95"/>
@@ -39058,10 +39060,6 @@ J2 t12</text>
 </instance>
 <instance part="U$5" gate="G$1" x="113.03" y="80.01" rot="R90"/>
 <instance part="U$6" gate="G$1" x="113.03" y="64.77" rot="R90"/>
-<instance part="3VD1" gate="G$1" x="21.59" y="46.99" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.415" y="30.988" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="19.939" y="35.052" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="L1" gate="G$1" x="58.42" y="101.6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="59.69" y="96.52" size="1.27" layer="95" rot="MR0"/>
 </instance>
@@ -39537,6 +39535,10 @@ J2 t12</text>
 <instance part="3C4" gate="G$1" x="105.41" y="71.12" smashed="yes">
 <attribute name="NAME" x="104.394" y="95.631" size="1.778" layer="95"/>
 <attribute name="VALUE" x="112.014" y="95.631" size="1.778" layer="96"/>
+</instance>
+<instance part="3VD1" gate="G$1" x="21.59" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.242" y="43.815" size="1.778" layer="95"/>
+<attribute name="VALUE" x="31.242" y="41.021" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -41179,7 +41181,7 @@ J2 t12</text>
 <wire x1="34.29" y1="11.43" x2="52.07" y2="11.43" width="0.1524" layer="91"/>
 <junction x="52.07" y="11.43"/>
 <pinref part="3C5" gate="G$1" pin="-"/>
-<wire x1="29.21" y1="26.67" x2="29.21" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="29.21" y1="22.86" x2="29.21" y2="11.43" width="0.1524" layer="91"/>
 <wire x1="29.21" y1="11.43" x2="34.29" y2="11.43" width="0.1524" layer="91"/>
 <junction x="34.29" y="11.43"/>
 <wire x1="120.65" y1="11.43" x2="115.57" y2="11.43" width="0.1524" layer="91"/>
@@ -41194,13 +41196,13 @@ J2 t12</text>
 <wire x1="100.33" y1="74.93" x2="100.33" y2="62.23" width="0.1524" layer="91"/>
 <junction x="100.33" y="62.23"/>
 <junction x="87.63" y="92.71"/>
-<wire x1="21.59" y1="44.45" x2="21.59" y2="11.43" width="0.1524" layer="91"/>
 <wire x1="21.59" y1="11.43" x2="29.21" y2="11.43" width="0.1524" layer="91"/>
 <junction x="29.21" y="11.43"/>
-<pinref part="3VD1" gate="G$1" pin="A"/>
 <pinref part="3C11" gate="G$1" pin="-"/>
 <pinref part="3C4" gate="G$1" pin="2"/>
 <wire x1="105.41" y1="66.04" x2="105.41" y2="62.23" width="0.1524" layer="91"/>
+<pinref part="3VD1" gate="G$1" pin="A"/>
+<wire x1="21.59" y1="38.1" x2="21.59" y2="11.43" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$92" class="0">
@@ -41225,7 +41227,7 @@ J2 t12</text>
 <pinref part="3C5" gate="G$1" pin="+"/>
 <wire x1="52.07" y1="54.61" x2="46.99" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="46.99" y1="54.61" x2="29.21" y2="54.61" width="0.1524" layer="91"/>
-<wire x1="29.21" y1="54.61" x2="29.21" y2="34.29" width="0.1524" layer="91"/>
+<wire x1="29.21" y1="54.61" x2="29.21" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="54.61" y1="39.37" x2="52.07" y2="39.37" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="39.37" x2="52.07" y2="54.61" width="0.1524" layer="91"/>
 <junction x="52.07" y="54.61"/>
@@ -41233,10 +41235,10 @@ J2 t12</text>
 <pinref part="3VD4" gate="1" pin="A"/>
 <wire x1="46.99" y1="52.07" x2="46.99" y2="54.61" width="0.1524" layer="91"/>
 <junction x="46.99" y="54.61"/>
-<wire x1="21.59" y1="49.53" x2="21.59" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="21.59" y1="54.61" x2="29.21" y2="54.61" width="0.1524" layer="91"/>
 <junction x="29.21" y="54.61"/>
 <pinref part="3VD1" gate="G$1" pin="C"/>
+<wire x1="21.59" y1="43.18" x2="21.59" y2="54.61" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POWER+" class="0">

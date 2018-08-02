@@ -2771,27 +2771,6 @@ wave soldering</description>
 <wire x1="107.95" y1="161.29" x2="107.95" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="107.95" y2="0" width="0.127" layer="21"/>
 </package>
-<package name="ZDMETAL">
-<description>Стабилитрон</description>
-<wire x1="-3.095" y1="3.4825" x2="-3.095" y2="2.4825" width="0.5" layer="21"/>
-<wire x1="-3.095" y1="2.4825" x2="-3.095" y2="-2.5175" width="0.5" layer="21"/>
-<wire x1="-3.095" y1="-2.5175" x2="-3.095" y2="-3.3175" width="0.5" layer="21"/>
-<wire x1="3.905" y1="1.7325" x2="3.905" y2="0.9825" width="0.127" layer="21"/>
-<wire x1="3.905" y1="0.9825" x2="3.905" y2="-1.0175" width="0.127" layer="21"/>
-<wire x1="3.905" y1="-1.0175" x2="3.905" y2="-1.7675" width="0.127" layer="21"/>
-<wire x1="-3.095" y1="2.4825" x2="-5.095" y2="2.4825" width="0.127" layer="21"/>
-<wire x1="-5.095" y1="2.4825" x2="-5.095" y2="-2.5175" width="0.127" layer="21"/>
-<wire x1="-5.095" y1="-2.5175" x2="-3.095" y2="-2.5175" width="0.127" layer="21"/>
-<wire x1="3.905" y1="0.9825" x2="9.905" y2="0.9825" width="0.127" layer="21"/>
-<wire x1="9.905" y1="0.9825" x2="9.905" y2="-1.0175" width="0.127" layer="21"/>
-<wire x1="9.905" y1="-1.0175" x2="3.905" y2="-1.0175" width="0.127" layer="21"/>
-<pad name="C" x="-8.095" y="0" drill="1.2" diameter="2.5"/>
-<pad name="A" x="12.27" y="0" drill="0.8" diameter="2"/>
-<wire x1="3.155" y1="2.4825" x2="-3.095" y2="2.4825" width="0.127" layer="21"/>
-<wire x1="3.155" y1="-2.5175" x2="-3.095" y2="-2.5175" width="0.127" layer="21"/>
-<wire x1="3.9" y1="1.75" x2="3.2" y2="2.45" width="0.127" layer="21"/>
-<wire x1="3.9" y1="-1.8" x2="3.2" y2="-2.5" width="0.127" layer="21"/>
-</package>
 <package name="B3F-40XX">
 <description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
 <wire x1="-1.905" y1="1.905" x2="1.905" y2="1.905" width="0.1524" layer="21"/>
@@ -3633,6 +3612,29 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <text x="-7.3025" y="2.2225" size="1.27" layer="25">&gt;NAME</text>
 <text x="-7.3025" y="-2.8575" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="ZDMETAL">
+<description>Стабилитрон</description>
+<wire x1="-3.095" y1="3.4825" x2="-3.095" y2="2.4825" width="0.5" layer="21"/>
+<wire x1="-3.095" y1="2.4825" x2="-3.095" y2="-2.5175" width="0.5" layer="21"/>
+<wire x1="-3.095" y1="-2.5175" x2="-3.095" y2="-3.3175" width="0.5" layer="21"/>
+<wire x1="3.905" y1="1.7325" x2="3.905" y2="0.9825" width="0.127" layer="21"/>
+<wire x1="3.905" y1="0.9825" x2="3.905" y2="-1.0175" width="0.127" layer="21"/>
+<wire x1="3.905" y1="-1.0175" x2="3.905" y2="-1.7675" width="0.127" layer="21"/>
+<wire x1="-3.095" y1="2.4825" x2="-5.095" y2="2.4825" width="0.127" layer="21"/>
+<wire x1="-5.095" y1="2.4825" x2="-5.095" y2="-2.5175" width="0.127" layer="21"/>
+<wire x1="-5.095" y1="-2.5175" x2="-3.095" y2="-2.5175" width="0.127" layer="21"/>
+<wire x1="3.905" y1="0.9825" x2="9.905" y2="0.9825" width="0.127" layer="21"/>
+<wire x1="9.905" y1="0.9825" x2="9.905" y2="-1.0175" width="0.127" layer="21"/>
+<wire x1="9.905" y1="-1.0175" x2="3.905" y2="-1.0175" width="0.127" layer="21"/>
+<pad name="C" x="-8.095" y="0" drill="1.2" diameter="2.5"/>
+<pad name="A" x="12.27" y="0" drill="0.8" diameter="2"/>
+<wire x1="3.155" y1="2.4825" x2="-3.095" y2="2.4825" width="0.127" layer="21"/>
+<wire x1="3.155" y1="-2.5175" x2="-3.095" y2="-2.5175" width="0.127" layer="21"/>
+<wire x1="3.9" y1="1.75" x2="3.2" y2="2.45" width="0.127" layer="21"/>
+<wire x1="3.9" y1="-1.8" x2="3.2" y2="-2.5" width="0.127" layer="21"/>
+<text x="-1.27" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 <library name="74xx-eu">
@@ -4266,84 +4268,84 @@ by R. Vogg  15.March.2002</description>
 <attribute name="VALUE" x="82.652225" y="70.3107625" size="1.27" layer="27" ratio="10" rot="R192"/>
 </element>
 <element name="1T3" library="ON Semiconductor_simistor" package="TO220DS" value="BTA12-600CWRG" x="46.0375" y="62.865" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.0525" y="54.5973" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="38.4175" y="67.945" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="42.2275" y="71.1073" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="38.4175" y="69.5325" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="1R35" library="resistor" package="0207/10" value="510" x="89.2175" y="72.0725" smashed="yes" rot="R180">
 <attribute name="NAME" x="89.0905" y="74.676" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="90.2081" y="72.7075" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="1R42" library="resistor" package="0207/10" value="390" x="66.04" y="64.135" smashed="yes">
-<attribute name="NAME" x="63.6905" y="63.6524" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="61.722003125" y="63.4238" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="67.183" y="61.4299" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="67.437003125" y="59.9313" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="1R39" library="resistor" package="P0613/15" value="390" x="52.3875" y="62.23" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.870096875" y="60.197996875" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="51.6762875" y="66.547984375" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="52.870096875" y="56.387996875" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="51.6762875" y="67.817984375" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="1R45" library="resistor" package="0207/10" value="39" x="66.04" y="66.9925" smashed="yes">
-<attribute name="NAME" x="63.96970625" y="66.72708125" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="61.722003125" y="66.2813" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="72.54220625" y="66.09208125" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="73.469503125" y="64.6938" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="1C19" library="resistor" package="C102-043X133" value="100nx400v" x="65.0875" y="70.485" smashed="yes" rot="R180">
-<attribute name="NAME" x="61.848996875" y="70.993" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="66.611496875" y="72.136" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="62.483996875" y="73.8505" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="60.706003125" y="72.644" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="1OK1" library="DSS" package="DIL6" value="MOC3063" x="80.01" y="101.9175" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.2325" y="107.315" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="82.8675" y="97.4725" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="1T1" library="ON Semiconductor_simistor" package="TO220DS" value="BTA12-600CWRG" x="46.0375" y="99.695" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.37" y="91.4273" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="38.4175" y="104.775" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="42.545" y="106.9848" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="38.1" y="106.68" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="1R33" library="resistor" package="0207/10" value="510" x="89.2175" y="97.155" smashed="yes" rot="R180">
 <attribute name="NAME" x="87.249" y="98.806" size="1.27" layer="25"/>
 <attribute name="VALUE" x="90.2335" y="97.8535" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="1R40" library="resistor" package="P0613/15" value="390" x="63.8175" y="95.25" smashed="yes">
-<attribute name="NAME" x="61.7855" y="94.7674" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="59.4995" y="94.5388" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="58.293" y="94.7674" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="66.802" y="94.5388" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="1R36" library="resistor" package="P0613/15" value="390" x="52.705" y="99.695" smashed="yes" rot="R270">
-<attribute name="NAME" x="53.187596875" y="97.662996875" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="51.993796875" y="104.01299375" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="53.187596875" y="93.852996875" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="51.993796875" y="105.28299375" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="1R43" library="resistor" package="P0613/15" value="39" x="63.8175" y="100.33" smashed="yes">
-<attribute name="NAME" x="61.7855" y="99.8474" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="59.4995" y="99.6188" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="58.293" y="99.8474" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="67.7545" y="99.6188" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="1C17" library="resistor" package="C102-043X133" value="100nx400v" x="63.8175" y="105.0925" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.579" y="105.6005" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="65.3415" y="106.7435" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="55.8165" y="107.188" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="61.341" y="107.2515" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="1OK2" library="DSS" package="DIL6" value="MOC3063" x="78.105" y="89.8525" smashed="yes" rot="R100">
 <attribute name="NAME" x="78.9533625" y="95.39560625" size="1.27" layer="25" ratio="10" rot="R190"/>
 <attribute name="VALUE" x="83.01685625" y="86.37694375" size="1.27" layer="27" ratio="10" rot="R190"/>
 </element>
 <element name="1T2" library="ON Semiconductor_simistor" package="TO220DS" value="BTA12-600CWRG" x="46.0375" y="81.28" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.37" y="73.0123" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="38.4175" y="86.36" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="42.2275" y="89.5223" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="38.4175" y="87.9475" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="1R34" library="resistor" package="0207/10" value="510" x="91.44" y="91.1225" smashed="yes" rot="R180">
 <attribute name="NAME" x="89.154003125" y="92.773503125" size="1.27" layer="25"/>
 <attribute name="VALUE" x="92.456" y="91.821003125" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="1R41" library="resistor" package="P0613/15" value="390" x="63.8175" y="78.105" smashed="yes">
-<attribute name="NAME" x="61.468" y="77.6224" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="59.4995" y="77.3938" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="57.9755" y="77.6224" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="66.802" y="77.3938" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="1R37" library="resistor" package="P0613/15" value="390" x="52.3875" y="80.645" smashed="yes" rot="R270">
-<attribute name="NAME" x="53.166890625" y="78.385265625" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="51.676296875" y="84.962996875" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="52.849390625" y="74.575265625" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="51.676296875" y="86.232996875" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="1R44" library="resistor" package="P0613/15" value="39" x="63.8175" y="83.185" smashed="yes">
-<attribute name="NAME" x="61.1505" y="82.7024" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="59.4995" y="82.4738" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="57.9755" y="82.7024" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="67.7545" y="82.4738" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="1C18" library="resistor" package="C102-043X133" value="100nx400v" x="63.8175" y="87.9475" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.579" y="88.4555" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="65.3415" y="89.5985" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="61.849" y="91.6305" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="67.8815" y="91.5035" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="EXT" library="con-wago-508" package="W237-132" value="" x="53.975" y="113.3475">
 <attribute name="OC_NEWARK" value="unknown" x="206.375" y="-9.8425" size="1.778" layer="27" display="off"/>
@@ -4590,12 +4592,21 @@ by R. Vogg  15.March.2002</description>
 <attribute name="VALUE" x="97.155" y="161.29" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="3R6" library="resistor" package="0207/10" value="27" x="91.7575" y="147.955" smashed="yes">
-<attribute name="NAME" x="89.9795" y="149.479" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="90.7669" y="147.32" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="86.8045" y="149.479" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="91.0844" y="149.5425" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="3R4" library="resistor" package="0204/7" value="15k" x="82.2325" y="133.0325" rot="R180"/>
-<element name="3C6" library="resistor" package="C050-025X075" value="1n" x="86.0425" y="129.54"/>
-<element name="3VD4" library="diode" package="DO41-10" value="SF36" x="74.295" y="140.335" rot="R270"/>
+<element name="3R4" library="resistor" package="0204/7" value="15k" x="82.2325" y="133.0325" smashed="yes" rot="R180">
+<attribute name="NAME" x="87.63" y="133.6929" size="0.9906" layer="25" ratio="10"/>
+<attribute name="VALUE" x="87.5919" y="132.5499" size="0.9906" layer="27" ratio="10"/>
+</element>
+<element name="3C6" library="resistor" package="C050-025X075" value="1n" x="86.0425" y="129.54" smashed="yes">
+<attribute name="NAME" x="89.916" y="131.191" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="90.2335" y="129.6035" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="3VD4" library="diode" package="DO41-10" value="SF36" x="74.295" y="140.335" smashed="yes" rot="R270">
+<attribute name="NAME" x="72.1995" y="142.494" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="72.1995" y="140.9065" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
 <element name="3R1" library="resistor" package="P0613/15" value="150k 1w" x="54.61" y="159.7025" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.0451" y="154.178" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="55.9562" y="158.877" size="1.27" layer="27" ratio="10" rot="R90"/>
@@ -4760,7 +4771,10 @@ by R. Vogg  15.March.2002</description>
 <attribute name="NAME" x="234.21975" y="79.4385" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="233.58475" y="78.486" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="3D1" library="DSS" package="DIL8" value="IR2153D" x="87.3125" y="140.6525"/>
+<element name="3D1" library="DSS" package="DIL8" value="IR2153D" x="87.3125" y="140.6525" smashed="yes">
+<attribute name="NAME" x="74.2315" y="132.1435" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="74.1045" y="130.175" size="1.27" layer="27" ratio="10"/>
+</element>
 <element name="J1" library="jumper" package="07" value="J7MM" x="69.85" y="166.0525" smashed="yes" rot="R180">
 <attribute name="NAME" x="70.485" y="165.1" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="66.15" y="166.0525" size="0.02" layer="27" rot="R180"/>
@@ -4807,20 +4821,19 @@ by R. Vogg  15.March.2002</description>
 <attribute name="VALUE" x="80.9625" y="160.02" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="1KK2" library="heatsink" package="D03PA-PAD" value="D03PA-PAD" x="46.6725" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.545" y="72.7075" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="46.6725" y="90.17" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="41.275" y="73.3425" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="40.005" y="87.9475" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="1KK1" library="heatsink" package="D03PA-PAD" value="D03PA-PAD" x="46.6725" y="99.695" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.8625" y="91.1225" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="46.6725" y="108.585" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="41.275" y="92.075" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="40.005" y="106.68" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="1KK3" library="heatsink" package="D03PA-PAD" value="D03PA-PAD" x="46.6725" y="62.865" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.545" y="54.2925" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="46.6725" y="71.755" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="41.275" y="54.9275" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="40.005" y="69.5325" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="3VD5" library="diode" package="DO214AC" value="SS14" x="111.125" y="185.7375" rot="MR0"/>
 <element name="3VD6" library="diode" package="DO214AC" value="SS14" x="111.125" y="182.5625" rot="MR0"/>
-<element name="3VD1" library="DSS" package="ZDMETAL" value="D814D" x="76.5175" y="125.73"/>
 <element name="L1" library="DSS0" package="LF-10X13" value="LFLF-10X13" x="317.8175" y="157.48" smashed="yes" rot="MR270">
 <attribute name="NAME" x="315.9125" y="152.0825" size="1.778" layer="16" font="vector" ratio="15" rot="MR180"/>
 </element>
@@ -4854,8 +4867,8 @@ by R. Vogg  15.March.2002</description>
 </element>
 <element name="MFRAME_D" library="DSS" package="MFRAME" value="_SYMBOL_MFRAME" x="226.06" y="41.91"/>
 <element name="3R5" library="resistor" package="0207/7" value="27" x="81.5975" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="80.01" y="149.479" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="82.2833" y="151.4475" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="NAME" x="83.1215" y="151.4475" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="83.185" y="149.8092" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="4VD8" library="diode" package="SOD80C" value="" x="331.47" y="88.5825" smashed="yes" rot="MR90">
 <attribute name="NAME" x="337.1215" y="88.4555" size="1.27" layer="26" rot="MR0"/>
@@ -4970,8 +4983,8 @@ by R. Vogg  15.March.2002</description>
 <attribute name="VALUE" x="282.956" y="126.492" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="USB-B" library="DSS0" package="PN61729-S" value="PN61729-S" x="130.81" y="206.375" smashed="yes" rot="R180">
-<attribute name="NAME" x="133.50875" y="210.5025" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="123.19" y="215.265" size="1.27" layer="27" rot="R270"/>
+<attribute name="NAME" x="133.50875" y="212.09" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="126.0475" y="208.915" size="1.27" layer="27"/>
 </element>
 <element name="2D2" library="74xx-eu" package="SO20W" value="74AC244DW" x="149.38375" y="184.785" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="147.60575" y="180.975" size="1.27" layer="28" ratio="10" rot="MR90"/>
@@ -5296,6 +5309,10 @@ by R. Vogg  15.March.2002</description>
 <element name="3C4" library="DSS0" package="C_22X10" value="1Mx250v_K73-17" x="42.8625" y="159.385" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.6875" y="157.48" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="41.275" y="152.7175" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="3VD1" library="DSS0" package="ZDMETAL" value="D814D" x="76.835" y="125.73" smashed="yes">
+<attribute name="NAME" x="74.93" y="126.6825" size="1.27" layer="25"/>
+<attribute name="VALUE" x="74.295" y="123.5075" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -6864,7 +6881,6 @@ by R. Vogg  15.March.2002</description>
 <contactref element="3C5" pad="-"/>
 <contactref element="3C10" pad="1"/>
 <contactref element="3D1" pad="4"/>
-<contactref element="3VD1" pad="A"/>
 <wire x1="42.8625" y1="167.3225" x2="47.625" y2="167.3225" width="2.54" layer="16"/>
 <wire x1="40.0939" y1="143.8275" x2="38.735" y2="149.225" width="2.54" layer="16"/>
 <wire x1="38.735" y1="149.225" x2="38.735" y2="156.5275" width="2.54" layer="16"/>
@@ -6884,7 +6900,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="82.2325" y1="185.7375" x2="82.2325" y2="173.6725" width="1.778" layer="16"/>
 <wire x1="82.2325" y1="173.6725" x2="88.265" y2="167.64" width="1.778" layer="16"/>
 <wire x1="88.265" y1="167.64" x2="88.265" y2="162.2425" width="1.778" layer="16"/>
-<wire x1="88.5825" y1="129.54" x2="88.7875" y2="125.73" width="1.27" layer="16"/>
+<wire x1="88.5825" y1="129.54" x2="89.105" y2="125.73" width="1.27" layer="16"/>
 <wire x1="86.0425" y1="136.8425" x2="90.17" y2="136.8425" width="1.27" layer="16"/>
 <wire x1="90.17" y1="136.8425" x2="91.313" y2="136.8425" width="1.27" layer="16"/>
 <wire x1="91.313" y1="136.8425" x2="93.6625" y2="139.827" width="1.27" layer="16"/>
@@ -6894,6 +6910,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="50.8" y1="187.96" x2="44.7675" y2="181.61" width="2.54" layer="16"/>
 <wire x1="44.7675" y1="181.61" x2="42.8625" y2="167.3225" width="2.54" layer="16"/>
 <contactref element="3C4" pad="2"/>
+<contactref element="3VD1" pad="A"/>
 </signal>
 <signal name="N$92">
 <contactref element="3C7" pad="+"/>
@@ -6907,16 +6924,16 @@ by R. Vogg  15.March.2002</description>
 <contactref element="3C5" pad="+"/>
 <contactref element="3D1" pad="1"/>
 <contactref element="3VD4" pad="A"/>
-<contactref element="3VD1" pad="C"/>
 <wire x1="78.4225" y1="136.8425" x2="74.295" y2="135.255" width="1.27" layer="16"/>
-<wire x1="69.215" y1="128.27" x2="68.4225" y2="125.73" width="1.778" layer="16"/>
+<wire x1="69.215" y1="128.27" x2="68.74" y2="125.73" width="1.778" layer="16"/>
 <wire x1="74.295" y1="135.255" x2="71.5975" y2="130.0175" width="1.27" layer="16"/>
-<wire x1="71.5975" y1="130.0175" x2="68.4225" y2="125.73" width="1.27" layer="16"/>
+<wire x1="71.5975" y1="130.0175" x2="68.74" y2="125.73" width="1.27" layer="16"/>
 <wire x1="79.5655" y1="140.5255" x2="78.4225" y2="139.3825" width="1.27" layer="16"/>
 <wire x1="78.4225" y1="139.3825" x2="78.4225" y2="136.8425" width="1.27" layer="16"/>
 <wire x1="79.5655" y1="140.5255" x2="87.503" y2="140.5255" width="1.27" layer="16"/>
 <wire x1="87.503" y1="140.5255" x2="90.3605" y2="143.383" width="1.27" layer="16"/>
 <wire x1="90.3605" y1="143.383" x2="93.6625" y2="143.383" width="1.27" layer="16"/>
+<contactref element="3VD1" pad="C"/>
 </signal>
 <signal name="POWER+">
 <contactref element="3R1" pad="2"/>
