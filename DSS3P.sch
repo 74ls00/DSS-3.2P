@@ -38281,9 +38281,9 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3655/BS
 <part name="2J2" library="resistor" deviceset="R-EU_" device="R1206W" value="0"/>
 <part name="2VT1" library="transistor" deviceset="BC847" device=""/>
 <part name="2VD2" library="diode" deviceset="DIODE-" device="SOD80C" value="LL4148"/>
-<part name="2C3" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="2C4" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="2C5" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="2C3" library="rcl" deviceset="C-EU" device="C0805" value="x"/>
+<part name="2C4" library="rcl" deviceset="C-EU" device="C0805" value="x"/>
+<part name="2C5" library="rcl" deviceset="C-EU" device="C1206" value="x"/>
 <part name="2J3" library="resistor" deviceset="R-EU_" device="R3225W" value="0"/>
 <part name="2J4" library="jumper" deviceset="J" device="7MM" value="0"/>
 <part name="2J5" library="resistor" deviceset="R-EU_" device="R1206W" value="0"/>
