@@ -34705,8 +34705,7 @@ Source: www.kingbright.com</description>
 </deviceset>
 <deviceset name="BYV32" prefix="D">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-2 x Si diode&lt;p&gt;
-200 V, 20 A/230 Apeak, 25 ns</description>
+2 x Si diode&lt;p&gt;</description>
 <gates>
 <gate name="1" symbol="DD" x="0" y="0"/>
 </gates>

@@ -3863,10 +3863,20 @@ by R. Vogg  15.March.2002</description>
 </classes>
 <designrules name="DesignRules">
 <description language="de">
+
+
+
+
+
 &lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 
 </description>
 <description language="en">
+
+
+
+
+
 
 
 
@@ -3902,18 +3912,18 @@ by R. Vogg  15.March.2002</description>
 <param name="msDrill" value="24mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
-<param name="rvPadTop" value="0.3"/>
+<param name="rvPadTop" value="0.2"/>
 <param name="rvPadInner" value="0.3"/>
-<param name="rvPadBottom" value="0.3"/>
+<param name="rvPadBottom" value="0.2"/>
 <param name="rvViaOuter" value="0.25"/>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="0.65mm"/>
+<param name="rlMinPadTop" value="0.55mm"/>
 <param name="rlMaxPadTop" value="1mm"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="0.65mm"/>
+<param name="rlMinPadBottom" value="0.55mm"/>
 <param name="rlMaxPadBottom" value="1mm"/>
 <param name="rlMinViaOuter" value="8mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
