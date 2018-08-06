@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,14 +28,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -168,19 +168,19 @@
 <text x="289.2425" y="60.325" size="1.778" layer="120" font="vector">-</text>
 <text x="305.7525" y="60.325" size="1.778" layer="120" font="vector">+</text>
 <text x="289.2425" y="109.855" size="1.778" layer="120" font="vector">+</text>
-<dimension x1="37.465" y1="203.835" x2="160.3375" y2="202.8825" x3="98.90125" y3="228.6" layer="120" dtype="horizontal"/>
+<dimension x1="37.465" y1="203.835" x2="160.3375" y2="202.8825" x3="98.90125" y3="228.6" textsize="3.5" layer="120" dtype="horizontal"/>
 <wire x1="0.9525" y1="-0.3175" x2="0" y2="251.46" width="0.254" layer="20"/>
 <wire x1="0" y1="251.46" x2="398.78" y2="251.46" width="0.254" layer="20"/>
 <wire x1="398.78" y1="251.46" x2="399.7325" y2="-0.3175" width="0.254" layer="20"/>
 <wire x1="399.7325" y1="-0.3175" x2="0.9525" y2="-0.3175" width="0.254" layer="20"/>
-<dimension x1="231.14" y1="1.27" x2="237.49" y2="3.175" x3="234.315" y3="3.175" layer="210" dtype="horizontal"/>
-<dimension x1="25.4" y1="50.8" x2="22.86" y2="104.14" x3="22.86" y3="77.47" layer="210" dtype="vertical"/>
-<dimension x1="223.52" y1="45.72" x2="220.98" y2="99.06" x3="220.98" y3="72.39" layer="210" dtype="vertical"/>
+<dimension x1="231.14" y1="1.27" x2="237.49" y2="3.175" x3="234.315" y3="3.175" textsize="3.5" layer="210" dtype="horizontal"/>
+<dimension x1="25.4" y1="50.8" x2="22.86" y2="104.14" x3="22.86" y3="77.47" textsize="3.5" layer="210" dtype="vertical"/>
+<dimension x1="223.52" y1="45.72" x2="220.98" y2="99.06" x3="220.98" y3="72.39" textsize="3.5" layer="210" dtype="vertical"/>
 <circle x="289.8775" y="61.2775" radius="6.125" width="0.8" layer="114"/>
 <circle x="306.3875" y="61.2775" radius="6.125" width="0.8" layer="115"/>
 <circle x="322.8975" y="61.2775" radius="6.125" width="0.8" layer="119"/>
-<dimension x1="118.4275" y1="30.00375" x2="106.283125" y2="29.606875" x3="112.3553125" y3="23.495" layer="120" dtype="horizontal"/>
-<dimension x1="157.63875" y1="213.0425" x2="168.5925" y2="32.0675" x3="173.6725" y3="122.555" layer="120" dtype="vertical"/>
+<dimension x1="118.4275" y1="30.00375" x2="106.283125" y2="29.606875" x3="112.3553125" y3="23.495" textsize="3.5" layer="120" dtype="horizontal"/>
+<dimension x1="157.63875" y1="213.0425" x2="168.5925" y2="32.0675" x3="173.6725" y3="122.555" textsize="3.5" layer="120" dtype="vertical"/>
 <circle x="92.075" y="81.5975" radius="7" width="0.254" layer="20"/>
 <circle x="322.8975" y="77.7875" radius="6.125" width="0.8" layer="119"/>
 <circle x="322.8975" y="94.2975" radius="6.125" width="0.8" layer="119"/>
@@ -253,17 +253,17 @@
 <wire x1="282.8925" y1="69.85" x2="313.3725" y2="69.85" width="0.254" layer="133"/>
 <wire x1="313.3725" y1="69.85" x2="313.3725" y2="85.725" width="0.254" layer="133"/>
 <wire x1="313.3725" y1="85.725" x2="282.8925" y2="85.725" width="0.254" layer="133"/>
-<dimension x1="37.465" y1="213.36" x2="26.3525" y2="187.96" x3="26.035" y3="200.66" layer="120" dtype="vertical"/>
+<dimension x1="37.465" y1="213.36" x2="26.3525" y2="187.96" x3="26.035" y3="200.66" textsize="3.5" layer="120" dtype="vertical"/>
 <wire x1="273.3675" y1="77.7875" x2="231.775" y2="32.385" width="0.6096" layer="37"/>
 <wire x1="92.075" y1="81.28" x2="50.165" y2="32.385" width="0.6096" layer="37"/>
-<dimension x1="30.1625" y1="32.385" x2="42.8625" y2="47.625" x3="25.4" y3="40.005" layer="120" dtype="vertical"/>
-<dimension x1="50.165" y1="22.5425" x2="147.32" y2="27.94" x3="98.7425" y3="11.43" layer="120" dtype="horizontal"/>
-<dimension x1="148.59" y1="213.36" x2="138.43" y2="216.535" x3="151.765" y3="214.9475" layer="120" dtype="vertical"/>
-<dimension x1="46.6725" y1="69.85" x2="47.625" y2="74.295" x3="26.67" y3="72.0725" layer="120" dtype="vertical"/>
-<dimension x1="43.815" y1="88.265" x2="44.7675" y2="92.71" x3="32.385" y3="90.4875" layer="120" dtype="vertical"/>
+<dimension x1="30.1625" y1="32.385" x2="42.8625" y2="47.625" x3="25.4" y3="40.005" textsize="3.5" layer="120" dtype="vertical"/>
+<dimension x1="50.165" y1="22.5425" x2="147.32" y2="27.94" x3="98.7425" y3="11.43" textsize="3.5" layer="120" dtype="horizontal"/>
+<dimension x1="148.59" y1="213.36" x2="138.43" y2="216.535" x3="151.765" y3="214.9475" textsize="3.5" layer="120" dtype="vertical"/>
+<dimension x1="46.6725" y1="69.85" x2="47.625" y2="74.295" x3="26.67" y3="72.0725" textsize="3.5" layer="120" dtype="vertical"/>
+<dimension x1="43.815" y1="88.265" x2="44.7675" y2="92.71" x3="32.385" y3="90.4875" textsize="3.5" layer="120" dtype="vertical"/>
 <wire x1="280.9875" y1="49.53" x2="330.2" y2="40.64" width="0.6096" layer="37"/>
 <circle x="273.3675" y="77.7875" radius="9.5" width="0.4064" layer="21"/>
-<dimension x1="122.2375" y1="200.9775" x2="120.015" y2="216.2175" x3="177.165" y3="208.5975" layer="120" dtype="vertical"/>
+<dimension x1="122.2375" y1="200.9775" x2="120.015" y2="216.2175" x3="177.165" y3="208.5975" textsize="3.5" layer="120" dtype="vertical"/>
 <text x="128.5875" y="95.5675" size="1.778" layer="1" font="vector">s2</text>
 <text x="149.225" y="98.425" size="1.778" layer="1" font="vector">pr</text>
 <text x="120.65" y="98.425" size="1.778" layer="1" font="vector">s1</text>
@@ -272,8 +272,8 @@
 <wire x1="151.13" y1="98.1075" x2="132.3975" y2="98.1075" width="0.254" layer="130"/>
 <text x="68.8975" y="49.8475" size="2.54" layer="16" font="vector" ratio="15" rot="MR180">1170-18</text>
 <wire x1="-4.445" y1="144.78" x2="394.335" y2="144.78" width="0.254" layer="114"/>
-<dimension x1="62.865" y1="61.11875" x2="57.705625" y2="61.039375" x3="60.2853125" y3="34.6075" layer="120" dtype="horizontal"/>
-<dimension x1="50.165" y1="132.3975" x2="48.5775" y2="137.4775" x3="33.02" y3="134.9375" layer="120" dtype="vertical"/>
+<dimension x1="62.865" y1="61.11875" x2="57.705625" y2="61.039375" x3="60.2853125" y3="34.6075" textsize="3.5" layer="120" dtype="horizontal"/>
+<dimension x1="50.165" y1="132.3975" x2="48.5775" y2="137.4775" x3="33.02" y3="134.9375" textsize="3.5" layer="120" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="atmega8">
@@ -3635,6 +3635,29 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <text x="-1.27" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="TO220">
+<description>&lt;b&gt;Molded Package&lt;/b&gt;&lt;p&gt;
+grid 2.54 mm</description>
+<wire x1="4.699" y1="-4.318" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-4.318" x2="-4.699" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-4.699" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
+<circle x="-4.4958" y="-3.7084" radius="0.254" width="0" layer="21"/>
+<pad name="1" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
+<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="-0.762" layer="21"/>
+<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="-0.762" layer="21"/>
+<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
+<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="-0.762" layer="21"/>
+<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="-0.762" layer="21"/>
+<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
+<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="74xx-eu">
@@ -4598,7 +4621,7 @@ by R. Vogg  15.March.2002</description>
 <attribute name="NAME" x="307.6829" y="74.2569" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="308.3179" y="74.0029" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="3VT1" library="transistor-power" package="TO220BV" value="IRF740" x="73.025" y="155.575" smashed="yes" rot="R180">
+<element name="3VT1" library="DSS0" package="TO220" value="IRF740" x="73.025" y="155.575" smashed="yes" rot="R180">
 <attribute name="NAME" x="79.0575" y="163.5252" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="80.01" y="161.925" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -6861,7 +6884,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="121.6025" y1="153.035" x2="127.3175" y2="153.035" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$14">
-<contactref element="3VT1" pad="S"/>
+<contactref element="3VT1" pad="3"/>
 <contactref element="3VT2" pad="D"/>
 <contactref element="3R7" pad="1"/>
 <contactref element="3C7" pad="-"/>
@@ -6895,7 +6918,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="96.8375" y1="153.035" x2="93.345" y2="157.48" width="1.778" layer="16"/>
 </signal>
 <signal name="N$83">
-<contactref element="3VT1" pad="G"/>
+<contactref element="3VT1" pad="1"/>
 <contactref element="3R5" pad="2"/>
 <wire x1="81.5975" y1="156.21" x2="75.565" y2="158.115" width="1.27" layer="16"/>
 </signal>
@@ -8047,7 +8070,7 @@ by R. Vogg  15.March.2002</description>
 </signal>
 <signal name="N$21">
 <contactref element="J1" pad="1"/>
-<contactref element="3VT1" pad="D"/>
+<contactref element="3VT1" pad="2"/>
 <contactref element="KK1" pad="B"/>
 <wire x1="73.025" y1="158.115" x2="73.66" y2="163.83" width="1.27" layer="16"/>
 <wire x1="73.66" y1="163.83" x2="73.66" y2="166.0525" width="1.27" layer="16"/>
