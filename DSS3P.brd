@@ -844,21 +844,25 @@ chip</description>
 <wire x1="2.286" y1="-1.778" x2="2.286" y2="-2.286" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.778" x2="1.905" y2="-1.778" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="1.778" x2="2.286" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.778" x2="1.905" y2="-1.778" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.778" x2="-0.635" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.778" x2="1.905" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.778" x2="-0.635" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.778" x2="-1.905" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="-0.635" y1="-1.778" x2="0.635" y2="-1.778" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.524" x2="-0.635" y2="-1.778" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.524" x2="0.635" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.524" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.778" x2="0.635" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.524" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="0.254" y1="-1.524" x2="0.635" y2="-1.524" width="0.1524" layer="21"/>
 <wire x1="0.254" y1="-1.524" x2="0.254" y2="1.651" width="0.1524" layer="21"/>
 <wire x1="-0.635" y1="-1.524" x2="-0.254" y2="-1.524" width="0.1524" layer="21"/>
 <wire x1="-0.254" y1="-1.524" x2="0.254" y2="-1.524" width="0.1524" layer="21"/>
 <wire x1="-0.254" y1="-1.524" x2="-0.254" y2="1.651" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="-1.524" x2="2.286" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.524" x2="1.905" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.524" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.524" x2="2.286" y2="-1.778" width="0.1524" layer="21"/>
 <wire x1="-1.905" y1="-1.524" x2="-2.286" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.524" x2="-1.905" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.524" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="-2.286" y1="-1.524" x2="-2.286" y2="-1.778" width="0.1524" layer="21"/>
 <wire x1="-2.286" y1="2.54" x2="-1.524" y2="2.54" width="0.1524" layer="21"/>
 <wire x1="-1.524" y1="2.54" x2="-1.524" y2="2.667" width="0.1524" layer="21"/>
@@ -873,9 +877,9 @@ chip</description>
 <wire x1="0.254" y1="2.413" x2="-0.254" y2="2.413" width="0.1524" layer="21"/>
 <wire x1="-0.254" y1="2.413" x2="-0.254" y2="2.54" width="0.1524" layer="21"/>
 <wire x1="-0.254" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="2" x="1.27" y="0" drill="0.9" shape="long" rot="R90"/>
-<text x="-2.2098" y="-1.016" size="0.9906" layer="21" ratio="12" rot="R180">1</text>
+<pad name="1" x="-1.27" y="0" drill="0.9144" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="0.9144" shape="long" rot="R90"/>
+<text x="-0.762" y="0.9398" size="0.9906" layer="21" ratio="12" rot="R90">1</text>
 <text x="-2.286" y="2.9464" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-3.8354" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.6002" y1="-0.3302" x2="-0.9398" y2="0.3302" layer="51"/>
@@ -5430,7 +5434,7 @@ by R. Vogg  15.March.2002</description>
 <attribute name="NAME" x="77.2287" y="132.4737" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="82.55" y="138.1125" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="3R8" library="resistor" package="P0613/15" value="1e5* 2w" x="46.0375" y="193.04"/>
+<element name="3R8" library="resistor" package="P0613/15" value="1e5* 2w" x="47.3075" y="190.5"/>
 <element name="3VD10" library="diode" package="DO41-10" value="" x="83.185" y="119.38"/>
 <element name="3R9" library="resistor" package="M0805" value="1k" x="71.755" y="123.825" rot="MR0"/>
 <element name="3HL1" library="led" package="LED3MM" value="" x="74.295" y="129.54"/>
@@ -7016,8 +7020,8 @@ by R. Vogg  15.March.2002</description>
 <contactref element="3C10" pad="1"/>
 <contactref element="3D1" pad="4"/>
 <wire x1="42.8625" y1="167.3225" x2="47.625" y2="167.3225" width="2.54" layer="16"/>
-<wire x1="51.435" y1="189.5475" x2="56.1975" y2="189.5475" width="2.54" layer="16"/>
-<wire x1="56.1975" y1="189.5475" x2="61.595" y2="200.3425" width="2.54" layer="16"/>
+<wire x1="54.61" y1="188.2775" x2="57.4675" y2="188.2775" width="2.54" layer="16"/>
+<wire x1="57.4675" y1="188.2775" x2="61.595" y2="200.3425" width="2.54" layer="16"/>
 <wire x1="61.595" y1="200.3425" x2="72.7075" y2="200.025" width="2.54" layer="16"/>
 <wire x1="88.265" y1="157.48" x2="88.265" y2="162.2425" width="1.778" layer="16"/>
 <wire x1="94.742" y1="139.827" x2="102.5525" y2="147.0025" width="1.778" layer="16"/>
@@ -7039,8 +7043,8 @@ by R. Vogg  15.March.2002</description>
 <contactref element="3C4" pad="2"/>
 <contactref element="3VD1" pad="A"/>
 <contactref element="3P1" pad="1"/>
-<wire x1="51.435" y1="189.5475" x2="50.8" y2="188.9125" width="2.54" layer="16"/>
-<wire x1="50.8" y1="188.9125" x2="50.8" y2="173.355" width="2.54" layer="16"/>
+<wire x1="54.61" y1="188.2775" x2="50.8" y2="185.1025" width="2.54" layer="16"/>
+<wire x1="50.8" y1="185.1025" x2="50.8" y2="173.355" width="2.54" layer="16"/>
 <wire x1="50.8" y1="173.355" x2="47.625" y2="170.18" width="2.54" layer="16"/>
 <wire x1="47.625" y1="170.18" x2="47.625" y2="167.3225" width="2.54" layer="16"/>
 <contactref element="3R8" pad="2"/>
@@ -7051,8 +7055,8 @@ by R. Vogg  15.March.2002</description>
 <wire x1="90.805" y1="122.555" x2="90.17" y2="123.19" width="0.6096" layer="16"/>
 <wire x1="90.17" y1="123.19" x2="88.1525" y2="123.19" width="0.6096" layer="16"/>
 <wire x1="88.1525" y1="123.19" x2="87.5175" y2="123.825" width="0.6096" layer="16"/>
-<wire x1="56.1975" y1="189.5475" x2="53.6575" y2="193.04" width="0" layer="19" extent="16-16"/>
-<wire x1="86.36" y1="134.9375" x2="86.36" y2="137.795" width="0" layer="19" extent="1-1"/>
+<wire x1="86.36" y1="137.795" x2="86.36" y2="134.9375" width="0" layer="19" extent="1-1"/>
+<wire x1="54.9275" y1="190.5" x2="50.8" y2="173.355" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$92">
 <contactref element="3C7" pad="+"/>
@@ -7085,10 +7089,8 @@ by R. Vogg  15.March.2002</description>
 <signal name="POWER+">
 <contactref element="3R1" pad="2"/>
 <contactref element="J1" pad="2"/>
-<wire x1="66.04" y1="166.0525" x2="61.43625" y2="170.65625" width="2.54" layer="16"/>
-<wire x1="61.43625" y1="170.65625" x2="60.6425" y2="171.45" width="2.54" layer="16"/>
+<wire x1="66.04" y1="166.0525" x2="60.6425" y2="171.45" width="2.54" layer="16"/>
 <wire x1="60.6425" y1="171.45" x2="60.6425" y2="178.1175" width="2.54" layer="16"/>
-<wire x1="60.6425" y1="178.1175" x2="59.055" y2="179.3875" width="2.54" layer="16"/>
 <contactref element="3B1" pad="+"/>
 <contactref element="3C11" pad="+"/>
 <contactref element="3C3" pad="1"/>
@@ -7098,8 +7100,8 @@ by R. Vogg  15.March.2002</description>
 <via x="62.5475" y="159.0675" extent="1-16" drill="0.8" diameter="2.54"/>
 <wire x1="62.5475" y1="159.0675" x2="58.7375" y2="163.83" width="1.016" layer="16"/>
 <wire x1="58.7375" y1="163.83" x2="58.7375" y2="167.3225" width="1.016" layer="16"/>
-<wire x1="59.055" y1="179.3875" x2="56.8325" y2="181.61" width="0" layer="19" extent="16-16"/>
-<wire x1="58.7375" y1="167.3225" x2="61.43625" y2="170.65625" width="0" layer="19" extent="16-16"/>
+<wire x1="60.6425" y1="178.1175" x2="56.8325" y2="181.61" width="0" layer="19" extent="16-16"/>
+<wire x1="58.7375" y1="167.3225" x2="60.6425" y2="171.45" width="0" layer="19" extent="16-16"/>
 <wire x1="54.61" y1="167.3225" x2="58.7375" y2="167.3225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$95">
@@ -9457,7 +9459,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="40.005" y1="123.19" x2="38.735" y2="124.46" width="0.6096" layer="16"/>
 <wire x1="38.735" y1="124.46" x2="38.735" y2="142.4686" width="0.6096" layer="16"/>
 <wire x1="38.735" y1="142.4686" x2="40.0939" y2="143.8275" width="0.6096" layer="16"/>
-<wire x1="44.7675" y1="181.61" x2="38.4175" y2="193.04" width="0" layer="19" extent="1-1"/>
+<wire x1="39.37" y1="144.5514" x2="39.6875" y2="190.5" width="0" layer="19" extent="16-16"/>
 <wire x1="77.47" y1="111.76" x2="76.2" y2="115.57" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IRD">
