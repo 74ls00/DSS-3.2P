@@ -42844,13 +42844,13 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="NAME" x="29.972" y="114.5286" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="27.686" y="112.014" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="1VT1" gate="G$1" x="121.92" y="55.88" smashed="yes">
-<attribute name="NAME" x="126.492" y="61.976" size="1.778" layer="95"/>
-<attribute name="VALUE" x="125.73" y="59.182" size="1.778" layer="96"/>
+<instance part="1VT1" gate="G$1" x="106.68" y="22.86" smashed="yes">
+<attribute name="NAME" x="111.252" y="28.956" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.49" y="26.162" size="1.778" layer="96"/>
 </instance>
-<instance part="1R32" gate="G$1" x="111.76" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="115.57" y="62.0014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="114.3" y="59.182" size="1.778" layer="96" rot="R180"/>
+<instance part="1R32" gate="G$1" x="96.52" y="22.86" smashed="yes" rot="R180">
+<attribute name="NAME" x="100.33" y="28.9814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="99.06" y="26.162" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="1VD1" gate="G$1" x="15.24" y="162.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.51" y="164.5666" size="1.778" layer="95"/>
@@ -42860,10 +42860,10 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="VALUE" x="67.31" y="179.578" size="1.778" layer="96"/>
 </instance>
 <instance part="GND20" gate="1" x="200.66" y="45.72" rot="MR0"/>
-<instance part="GND21" gate="1" x="124.46" y="45.72"/>
+<instance part="GND21" gate="1" x="109.22" y="12.7"/>
 <instance part="AIR" gate="G$1" x="162.56" y="58.42" rot="MR0"/>
-<instance part="P+6" gate="1" x="124.46" y="81.28" smashed="yes">
-<attribute name="VALUE" x="123.19" y="82.55" size="1.778" layer="96"/>
+<instance part="P+6" gate="1" x="109.22" y="48.26" smashed="yes">
+<attribute name="VALUE" x="107.95" y="49.53" size="1.778" layer="96"/>
 </instance>
 <instance part="P+13" gate="1" x="15.24" y="170.18" smashed="yes">
 <attribute name="VALUE" x="17.78" y="172.72" size="1.778" layer="96" rot="R180"/>
@@ -42930,9 +42930,9 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="NAME" x="160.655" y="27.94" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="170.18" y="26.67" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="B1" gate="G$1" x="124.46" y="69.85" smashed="yes">
-<attribute name="NAME" x="130.175" y="74.295" size="1.778" layer="95"/>
-<attribute name="VALUE" x="127.635" y="69.85" size="1.778" layer="96"/>
+<instance part="B1" gate="G$1" x="109.22" y="36.83" smashed="yes">
+<attribute name="NAME" x="114.935" y="41.275" size="1.778" layer="95"/>
+<attribute name="VALUE" x="112.395" y="36.83" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="FRAME3" gate="G$2" x="175.26" y="0"/>
@@ -43226,9 +43226,9 @@ DIN A4, landscape with extra doc field</description>
 <net name="BUZZER" class="0">
 <segment>
 <pinref part="1R32" gate="G$1" pin="2"/>
-<wire x1="100.33" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
-<label x="99.06" y="55.88" size="1.778" layer="95"/>
+<wire x1="85.09" y1="22.86" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
+<label x="83.82" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="1D3" gate="1" pin="PD4(T0/XCK/PCINT20)"/>
@@ -43310,7 +43310,7 @@ DIN A4, landscape with extra doc field</description>
 <segment>
 <pinref part="1VT1" gate="G$1" pin="B"/>
 <pinref part="1R32" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="22.86" x2="101.6" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -43540,7 +43540,7 @@ DIN A4, landscape with extra doc field</description>
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
 <pinref part="1VT1" gate="G$1" pin="E"/>
-<wire x1="124.46" y1="50.8" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="17.78" x2="109.22" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="1D3" gate="1" pin="GND@1"/>
@@ -43684,7 +43684,7 @@ DIN A4, landscape with extra doc field</description>
 <segment>
 <pinref part="B1" gate="G$1" pin="1"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
-<wire x1="124.46" y1="76.2" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="43.18" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PB0" class="0">
@@ -43794,7 +43794,7 @@ DIN A4, landscape with extra doc field</description>
 <segment>
 <pinref part="1VT1" gate="G$1" pin="C"/>
 <pinref part="B1" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="60.96" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="27.94" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="R_PREH" class="0">
