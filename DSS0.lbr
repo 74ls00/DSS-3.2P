@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -27,7 +27,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -51,8 +51,8 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -2061,6 +2061,20 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="-4" y1="4" x2="4" y2="4" width="0.127" layer="21"/>
 <wire x1="-4" y1="3" x2="4" y2="3" width="0.127" layer="21"/>
 </package>
+<package name="PIN2X8">
+<pad name="P$1" x="-7" y="0" drill="0.8"/>
+<pad name="P$2" x="-5" y="0" drill="0.8"/>
+<pad name="P$3" x="-3" y="0" drill="0.8"/>
+<pad name="P$4" x="-1" y="0" drill="0.8"/>
+<pad name="P$5" x="1" y="0" drill="0.8"/>
+<pad name="P$6" x="3" y="0" drill="0.8"/>
+<pad name="P$7" x="5" y="0" drill="0.8"/>
+<pad name="P$8" x="7" y="0" drill="0.8"/>
+<wire x1="-8" y1="1" x2="-8" y2="-1" width="0.127" layer="21"/>
+<wire x1="-8" y1="-1" x2="8" y2="-1" width="0.127" layer="21"/>
+<wire x1="8" y1="-1" x2="8" y2="1" width="0.127" layer="21"/>
+<wire x1="8" y1="1" x2="-8" y2="1" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIN5">
@@ -3037,6 +3051,16 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
 <pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="PIN2X8">
+<pin name="1" x="0" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="2" x="0" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="3" x="0" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="4" x="0" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="5" x="0" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="6" x="0" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="7" x="0" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="8" x="0" y="-17.78" visible="pin" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4262,6 +4286,28 @@ Source: www.kingbright.com</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIN2X8">
+<gates>
+<gate name="G$1" symbol="PIN2X8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PIN2X8">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
 </connects>
 <technologies>
 <technology name=""/>

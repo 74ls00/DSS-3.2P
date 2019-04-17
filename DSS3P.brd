@@ -2886,16 +2886,6 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
 </package>
-<package name="05">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-1.3462" y1="0" x2="1.3462" y2="0" width="0.6096" layer="21"/>
-<wire x1="2.54" y1="0" x2="1.397" y2="0" width="0.6096" layer="51"/>
-<wire x1="-2.54" y1="0" x2="-1.397" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-2.54" y="0.889" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="2.5001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 </library>
 <library name="heatsink">
@@ -3636,6 +3626,18 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <wire x1="3.9" y1="-1.8" x2="3.2" y2="-2.5" width="0.127" layer="21"/>
 <text x="-1.27" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="21">
+<vertex x="-8" y="0.5"/>
+<vertex x="-5.1" y="0.5"/>
+<vertex x="-5.1" y="-0.5"/>
+<vertex x="-8" y="-0.5"/>
+</polygon>
+<polygon width="0.1" layer="21">
+<vertex x="9.9" y="0.3"/>
+<vertex x="12.3" y="0.3"/>
+<vertex x="12.3" y="-0.3"/>
+<vertex x="9.9" y="-0.3"/>
+</polygon>
 </package>
 <package name="TO220">
 <description>&lt;b&gt;Molded Package&lt;/b&gt;&lt;p&gt;
@@ -3687,6 +3689,20 @@ grid 2.54 mm</description>
 <wire x1="-4" y1="-5" x2="4" y2="-5" width="0.127" layer="21"/>
 <wire x1="-4" y1="4" x2="4" y2="4" width="0.127" layer="21"/>
 <wire x1="-4" y1="3" x2="4" y2="3" width="0.127" layer="21"/>
+</package>
+<package name="PIN2X8">
+<pad name="P$1" x="-7" y="0" drill="0.8"/>
+<pad name="P$2" x="-5" y="0" drill="0.8"/>
+<pad name="P$3" x="-3" y="0" drill="0.8"/>
+<pad name="P$4" x="-1" y="0" drill="0.8"/>
+<pad name="P$5" x="1" y="0" drill="0.8"/>
+<pad name="P$6" x="3" y="0" drill="0.8"/>
+<pad name="P$7" x="5" y="0" drill="0.8"/>
+<pad name="P$8" x="7" y="0" drill="0.8"/>
+<wire x1="-8" y1="1" x2="-8" y2="-1" width="0.127" layer="21"/>
+<wire x1="-8" y1="-1" x2="8" y2="-1" width="0.127" layer="21"/>
+<wire x1="8" y1="-1" x2="8" y2="1" width="0.127" layer="21"/>
+<wire x1="8" y1="1" x2="-8" y2="1" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -5434,10 +5450,6 @@ by R. Vogg  15.March.2002</description>
 <attribute name="NAME" x="27.3812" y="154.3812" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="31.115" y="158.4325" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="J2" library="jumper" package="05" value="J5MM" x="66.04" y="194.945" smashed="yes">
-<attribute name="NAME" x="65.0875" y="195.834" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="68.5401" y="194.945" size="0.02" layer="27"/>
-</element>
 <element name="3P3" library="pinhead" package="1X01" value="" x="19.05" y="140.6525" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.4663" y="138.3538" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="20.32" y="143.8275" size="1.27" layer="27" rot="R180"/>
@@ -5458,6 +5470,10 @@ by R. Vogg  15.March.2002</description>
 <element name="3C8B" library="rcl" package="C0805" value="" x="77.7875" y="112.0775" rot="MR180"/>
 <element name="3R6B" library="resistor" package="M1206" value="" x="91.7575" y="148.2725" rot="MR180"/>
 <element name="3R6B1" library="resistor" package="M1206" value="" x="77.47" y="149.225" rot="MR0"/>
+<element name="U$8" library="DSS0" package="PIN2X8" value="PIN2X8" x="139.065" y="114.3" rot="R225"/>
+<element name="U$9" library="DSS0" package="PIN2X8" value="PIN2X8" x="139.065" y="127" rot="R315"/>
+<element name="U$12" library="DSS0" package="PIN2X8" value="PIN2X8" x="126.365" y="127" rot="R45"/>
+<element name="U$13" library="DSS0" package="PIN2X8" value="PIN2X8" x="126.365" y="114.3" rot="R135"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -5527,6 +5543,14 @@ by R. Vogg  15.March.2002</description>
 <wire x1="133.6675" y1="174.3075" x2="131.445" y2="175.26" width="0.6096" layer="16"/>
 <contactref element="J2D2" pad="2"/>
 <wire x1="156.525" y1="177.165" x2="158.115" y2="177.038" width="0.6096" layer="16"/>
+<contactref element="U$9" pad="P$4"/>
+<contactref element="U$9" pad="P$2"/>
+<contactref element="U$13" pad="P$4"/>
+<contactref element="U$13" pad="P$6"/>
+<wire x1="124.243678125" y1="116.42131875" x2="127.07210625" y2="113.592890625" width="0" layer="19" extent="1-1"/>
+<wire x1="124.703646875" y1="119.0982" x2="124.243678125" y2="116.42131875" width="0" layer="19" extent="16-16"/>
+<wire x1="138.357890625" y1="127.70710625" x2="134.14375" y2="127.69125" width="0" layer="19" extent="16-16"/>
+<wire x1="135.529465625" y1="130.53553125" x2="138.357890625" y2="127.70710625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="1VT1" pad="E"/>
@@ -5824,6 +5848,12 @@ by R. Vogg  15.March.2002</description>
 <wire x1="113.084471875" y1="163.775525" x2="115.34535625" y2="165.96678125" width="1.778" layer="16"/>
 <wire x1="115.34535625" y1="165.96678125" x2="119.85625" y2="170.33875" width="1.778" layer="16"/>
 <wire x1="122.2375" y1="162.052" x2="115.34535625" y2="165.96678125" width="1.778" layer="16"/>
+<contactref element="U$9" pad="P$5"/>
+<contactref element="U$13" pad="P$3"/>
+<contactref element="U$13" pad="P$5"/>
+<wire x1="124.46" y1="117.1575" x2="125.657890625" y2="115.00710625" width="0" layer="19" extent="16-16"/>
+<wire x1="139.77210625" y1="126.292890625" x2="134.2" y2="126.0475" width="0" layer="19" extent="16-16"/>
+<wire x1="128.48631875" y1="112.178678125" x2="125.657890625" y2="115.00710625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CLK">
 <contactref element="1D3" pad="28"/>
@@ -5835,12 +5865,16 @@ by R. Vogg  15.March.2002</description>
 <wire x1="143.1925" y1="113.3475" x2="142.5575" y2="112.7125" width="0.4064" layer="16"/>
 <wire x1="142.5575" y1="112.7125" x2="139.3825" y2="112.7125" width="0.4064" layer="16"/>
 <wire x1="139.3825" y1="112.7125" x2="138.1125" y2="113.665" width="0.4064" layer="16"/>
+<contactref element="U$8" pad="P$4"/>
+<wire x1="134.8681875" y1="115.57" x2="139.77210625" y2="115.00710625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="STROB">
 <contactref element="1D3" pad="27"/>
 <contactref element="DISPL1" pad="2"/>
 <wire x1="132.47135625" y1="119.0982" x2="134.72955625" y2="116.84" width="0.4064" layer="16"/>
 <wire x1="134.72955625" y1="116.84" x2="140.97" y2="114.935" width="0.4064" layer="16"/>
+<contactref element="U$8" pad="P$3"/>
+<wire x1="134.72955625" y1="116.84" x2="141.18631875" y2="116.42131875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="DATA">
 <contactref element="1D3" pad="26"/>
@@ -5848,6 +5882,8 @@ by R. Vogg  15.March.2002</description>
 <wire x1="133.037040625" y1="119.663884375" x2="134.908425" y2="117.7925" width="0.4064" layer="16"/>
 <wire x1="136.525" y1="117.475" x2="140.97" y2="117.475" width="0.4064" layer="16"/>
 <wire x1="134.908425" y1="117.7925" x2="136.525" y2="117.475" width="0.4064" layer="16"/>
+<contactref element="U$8" pad="P$2"/>
+<wire x1="136.525" y1="117.475" x2="142.60053125" y2="117.83553125" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="RXD(TX)">
 <contactref element="1D3" pad="30"/>
@@ -5868,7 +5904,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="131.7625" y1="109.22" x2="130.81" y2="107.95" width="0.4064" layer="16"/>
 <wire x1="130.81" y1="107.95" x2="129.2225" y2="107.315" width="0.4064" layer="16"/>
 <wire x1="129.2225" y1="107.315" x2="127" y2="107.6325" width="0.4064" layer="16"/>
-<wire x1="148.59" y1="144.78" x2="148.59" y2="146.05" width="0.6096" layer="16"/>
+<wire x1="148.59" y1="144.4625" x2="148.59" y2="146.05" width="0.6096" layer="16"/>
 <wire x1="148.59" y1="146.05" x2="146.05" y2="148.9075" width="0.6096" layer="16"/>
 <wire x1="141.605" y1="168.5925" x2="141.605" y2="157.48" width="0.6096" layer="16"/>
 <wire x1="141.605" y1="157.48" x2="133.985" y2="149.86" width="0.6096" layer="16"/>
@@ -5881,7 +5917,9 @@ by R. Vogg  15.March.2002</description>
 <wire x1="130.175" y1="111.4425" x2="130.175" y2="112.395" width="0.4064" layer="16"/>
 <wire x1="130.175" y1="112.395" x2="131.7625" y2="114.935" width="0.4064" layer="16"/>
 <contactref element="AVR_ISP" pad="8"/>
-<wire x1="148.59" y1="144.78" x2="152.7175" y2="140.335" width="0" layer="19" extent="16-16"/>
+<wire x1="148.59" y1="144.4625" x2="152.7175" y2="140.335" width="0.6096" layer="16"/>
+<contactref element="U$8" pad="P$6"/>
+<wire x1="131.7625" y1="109.22" x2="136.943678125" y2="112.178678125" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="TXD(RX)">
 <contactref element="1D3" pad="31"/>
@@ -5900,7 +5938,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="149.86" y1="170.815" x2="148.2725" y2="167.3225" width="0.4064" layer="16"/>
 <wire x1="148.2725" y1="167.3225" x2="148.2725" y2="157.7975" width="0.4064" layer="16"/>
 <wire x1="129.54" y1="131.1275" x2="130.4925" y2="134.9375" width="0.6096" layer="16"/>
-<wire x1="139.065" y1="144.78" x2="136.2075" y2="144.78" width="0.6096" layer="16"/>
+<wire x1="141.376" y1="144.78" x2="136.2075" y2="144.78" width="0.6096" layer="16"/>
 <wire x1="136.2075" y1="144.78" x2="134.62" y2="143.1925" width="0.6096" layer="16"/>
 <wire x1="142.3285" y1="150.901" x2="148.2725" y2="156.845" width="0.6096" layer="16"/>
 <wire x1="148.2725" y1="156.845" x2="148.2725" y2="157.7975" width="0.6096" layer="16"/>
@@ -5909,8 +5947,10 @@ by R. Vogg  15.March.2002</description>
 <wire x1="129.54" y1="109.5375" x2="128.905" y2="111.125" width="0.4064" layer="16"/>
 <wire x1="128.905" y1="111.125" x2="128.905" y2="112.0775" width="0.4064" layer="16"/>
 <contactref element="2J7" pad="1"/>
-<wire x1="142.3285" y1="145.7325" x2="142.3285" y2="150.901" width="0" layer="19" extent="16-16"/>
-<wire x1="139.065" y1="144.78" x2="142.3285" y2="145.7325" width="0" layer="19" extent="16-16"/>
+<wire x1="142.3285" y1="150.901" x2="142.3285" y2="145.7325" width="0.6096" layer="16"/>
+<wire x1="141.376" y1="144.78" x2="142.3285" y2="145.7325" width="0.6096" layer="16"/>
+<contactref element="U$8" pad="P$7"/>
+<wire x1="129.54" y1="109.5375" x2="135.529465625" y2="110.764465625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="RELAY_EXT">
 <contactref element="1D3" pad="7"/>
@@ -5918,13 +5958,17 @@ by R. Vogg  15.March.2002</description>
 <wire x1="123.19" y1="118.715925" x2="123.19" y2="117.1575" width="0.4064" layer="16"/>
 <wire x1="123.19" y1="117.1575" x2="121.285" y2="115.2525" width="0.4064" layer="16"/>
 <contactref element="1D4" pad="2"/>
-<wire x1="119.38" y1="115.2525" x2="121.285" y2="115.2525" width="0" layer="19" extent="16-16"/>
+<wire x1="121.285" y1="115.2525" x2="119.38" y2="115.2525" width="0.4064" layer="16"/>
+<contactref element="U$13" pad="P$7"/>
+<wire x1="122.829465625" y1="117.83553125" x2="119.38" y2="115.2525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RELAY_FEN">
 <contactref element="1D3" pad="8"/>
 <wire x1="123.572275" y1="120.229571875" x2="121.1352" y2="117.7925" width="0.4064" layer="16"/>
 <contactref element="1D4" pad="3"/>
-<wire x1="119.38" y1="117.7925" x2="121.1352" y2="117.7925" width="0" layer="19" extent="16-16"/>
+<wire x1="121.1352" y1="117.7925" x2="119.38" y2="117.7925" width="0.4064" layer="16"/>
+<contactref element="U$13" pad="P$8"/>
+<wire x1="121.41525" y1="119.249746875" x2="119.38" y2="117.7925" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="1D3" pad="29"/>
@@ -5955,7 +5999,10 @@ by R. Vogg  15.March.2002</description>
 <wire x1="149.86" y1="165.4175" x2="149.86" y2="166.37" width="0.4064" layer="16"/>
 <wire x1="149.86" y1="166.37" x2="151.13" y2="169.2275" width="0.4064" layer="16"/>
 <contactref element="AVR_ISP" pad="5"/>
-<wire x1="148.59" y1="139.065" x2="150.1775" y2="137.795" width="0" layer="19" extent="16-16"/>
+<wire x1="148.59" y1="139.065" x2="149.86" y2="137.795" width="0.6096" layer="16"/>
+<wire x1="149.86" y1="137.795" x2="150.1775" y2="137.795" width="0.6096" layer="16"/>
+<contactref element="U$8" pad="P$5"/>
+<wire x1="132.08" y1="111.76" x2="138.357890625" y2="113.592890625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GERKON">
 <contactref element="1D3" pad="25"/>
@@ -5990,6 +6037,8 @@ by R. Vogg  15.March.2002</description>
 <wire x1="102.87" y1="76.2" x2="102.87" y2="81.28" width="0.4064" layer="16"/>
 <wire x1="102.87" y1="81.28" x2="103.505" y2="82.2325" width="0.4064" layer="16"/>
 <wire x1="103.505" y1="82.2325" x2="103.505" y2="95.25" width="0.4064" layer="16"/>
+<contactref element="U$8" pad="P$1"/>
+<wire x1="136.525" y1="119.38" x2="144.014746875" y2="119.249746875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUZZER">
 <contactref element="1R32" pad="2"/>
@@ -6004,7 +6053,9 @@ by R. Vogg  15.March.2002</description>
 <wire x1="125.095" y1="131.445" x2="124.1425" y2="132.3975" width="0.4064" layer="1"/>
 <wire x1="124.1425" y1="132.3975" x2="124.1425" y2="138.43" width="0.4064" layer="1"/>
 <contactref element="1D3" pad="2"/>
-<wire x1="125.383428125" y1="115.2525" x2="126.9663875" y2="116.835459375" width="0" layer="19" extent="16-16"/>
+<wire x1="126.9663875" y1="116.835459375" x2="125.383428125" y2="115.2525" width="0.4064" layer="16"/>
+<contactref element="U$13" pad="P$2"/>
+<wire x1="124.1425" y1="114.6175" x2="129.90053125" y2="110.764465625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PWM_EXT">
 <contactref element="1D3" pad="15"/>
@@ -6052,8 +6103,10 @@ by R. Vogg  15.March.2002</description>
 <wire x1="147.32" y1="179.3875" x2="147.32" y2="173.355" width="0.4064" layer="16"/>
 <contactref element="1R33" pad="1"/>
 <contactref element="AVR_ISP" pad="4"/>
+<wire x1="155.575" y1="135.255" x2="152.7175" y2="135.255" width="0.6096" layer="16"/>
+<contactref element="U$12" pad="P$7"/>
 <wire x1="94.2975" y1="98.1075" x2="94.2975" y2="97.155" width="0" layer="19" extent="16-16"/>
-<wire x1="152.7175" y1="135.255" x2="155.575" y2="135.255" width="0" layer="19" extent="16-16"/>
+<wire x1="129.90053125" y1="130.53553125" x2="127.635" y2="129.54" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="KEY(SCK)">
 <contactref element="1D3" pad="17"/>
@@ -6096,8 +6149,11 @@ by R. Vogg  15.March.2002</description>
 <wire x1="148.9075" y1="135.89" x2="144.145" y2="141.605" width="0.6096" layer="16"/>
 <contactref element="1R30" pad="2"/>
 <contactref element="AVR_ISP" pad="3"/>
-<wire x1="148.9075" y1="135.89" x2="150.1775" y2="135.255" width="0" layer="19" extent="16-16"/>
-<wire x1="141.29" y1="129.8575" x2="138.7475" y2="129.8575" width="0" layer="19" extent="1-16"/>
+<wire x1="148.9075" y1="135.89" x2="149.5425" y2="135.255" width="0.6096" layer="16"/>
+<wire x1="149.5425" y1="135.255" x2="150.1775" y2="135.255" width="0.6096" layer="16"/>
+<wire x1="138.7475" y1="129.8575" x2="141.29" y2="129.8575" width="0.4064" layer="16"/>
+<contactref element="U$9" pad="P$1"/>
+<wire x1="130.175" y1="128.905" x2="134.11525" y2="131.949746875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="D1O">
 <contactref element="1R27" pad="1"/>
@@ -6282,7 +6338,10 @@ by R. Vogg  15.March.2002</description>
 <wire x1="127.635" y1="139.7" x2="128.27" y2="140.97" width="0.6096" layer="16"/>
 <wire x1="128.27" y1="140.97" x2="128.27" y2="146.685" width="0.6096" layer="16"/>
 <contactref element="AVR_ISP" pad="1"/>
-<wire x1="146.3675" y1="133.0325" x2="150.1775" y2="132.715" width="0" layer="19" extent="16-16"/>
+<wire x1="146.3675" y1="133.0325" x2="149.86" y2="133.0325" width="0.6096" layer="16"/>
+<wire x1="149.86" y1="133.0325" x2="150.1775" y2="132.715" width="0.6096" layer="16"/>
+<contactref element="U$12" pad="P$8"/>
+<wire x1="126.365" y1="131.445" x2="131.314746875" y2="131.949746875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PWM_SOL_1">
 <contactref element="1D3" pad="13"/>
@@ -6309,6 +6368,8 @@ by R. Vogg  15.March.2002</description>
 <wire x1="121.92" y1="114.6175" x2="122.555" y2="115.8875" width="0.4064" layer="1"/>
 <wire x1="122.555" y1="115.8875" x2="122.555" y2="128.905" width="0.4064" layer="1"/>
 <wire x1="122.555" y1="128.905" x2="122.8725" y2="129.2225" width="0.4064" layer="1"/>
+<contactref element="U$12" pad="P$5"/>
+<wire x1="123.5075" y1="126.9306875" x2="127.07210625" y2="127.70710625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PWM_SOL_2">
 <contactref element="1D3" pad="32"/>
@@ -6332,7 +6393,9 @@ by R. Vogg  15.March.2002</description>
 <wire x1="131.445" y1="98.425" x2="131.445" y2="100.6475" width="0.6096" layer="16"/>
 <wire x1="131.445" y1="100.6475" x2="125.095" y2="104.775" width="0.6096" layer="16"/>
 <contactref element="4VD13" pad="A"/>
-<wire x1="145.415" y1="63.4115" x2="147.2075" y2="64.77" width="0" layer="19" extent="16-16"/>
+<contactref element="U$8" pad="P$8"/>
+<wire x1="125.095" y1="104.775" x2="134.11525" y2="109.35025" width="0" layer="19" extent="16-16"/>
+<wire x1="147.2075" y1="64.77" x2="145.415" y2="63.4115" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="T_PREHEAT">
 <contactref element="1D3" pad="23"/>
@@ -6353,6 +6416,8 @@ by R. Vogg  15.March.2002</description>
 <wire x1="148.59" y1="108.2675" x2="151.4475" y2="111.125" width="0.6096" layer="16"/>
 <wire x1="142.24" y1="96.52" x2="142.24" y2="92.008915625" width="0.6096" layer="16"/>
 <wire x1="142.24" y1="92.008915625" x2="142.24358125" y2="92.005334375" width="0.6096" layer="16"/>
+<contactref element="U$9" pad="P$7"/>
+<wire x1="134.590928125" y1="124.46" x2="142.60053125" y2="123.464465625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="T_SOLDER_2">
 <contactref element="1D3" pad="24"/>
@@ -6369,6 +6434,8 @@ by R. Vogg  15.March.2002</description>
 <wire x1="135.5725" y1="107.95" x2="139.065" y2="111.4425" width="0.6096" layer="16"/>
 <wire x1="139.065" y1="111.4425" x2="145.415" y2="111.4425" width="0.6096" layer="16"/>
 <wire x1="145.415" y1="111.4425" x2="147.955" y2="113.9825" width="0.6096" layer="16"/>
+<contactref element="U$9" pad="P$8"/>
+<wire x1="144.78" y1="122.8725" x2="144.014746875" y2="122.05025" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="TO_FAN">
 <contactref element="1R28" pad="2"/>
@@ -6391,6 +6458,8 @@ by R. Vogg  15.March.2002</description>
 <wire x1="131.1275" y1="106.3625" x2="130.81" y2="105.7275" width="0.4064" layer="16"/>
 <wire x1="113.665" y1="98.1075" x2="119.0625" y2="103.505" width="0.6096" layer="16"/>
 <wire x1="119.0625" y1="103.505" x2="119.0625" y2="105.7275" width="0.6096" layer="16"/>
+<contactref element="U$9" pad="P$3"/>
+<wire x1="132.715" y1="129.2225" x2="136.943678125" y2="129.12131875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="T_SOLDER_1">
 <contactref element="1D3" pad="22"/>
@@ -6411,6 +6480,8 @@ by R. Vogg  15.March.2002</description>
 <wire x1="120.3325" y1="108.2675" x2="120.3325" y2="109.855" width="0.6096" layer="16"/>
 <wire x1="120.3325" y1="109.855" x2="121.6025" y2="111.125" width="0.6096" layer="16"/>
 <wire x1="121.6025" y1="111.125" x2="125.4125" y2="111.125" width="0.6096" layer="16"/>
+<contactref element="U$9" pad="P$6"/>
+<wire x1="132.47135625" y1="123.471796875" x2="141.18631875" y2="124.878678125" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$71">
 <contactref element="1OK3" pad="4"/>
@@ -6530,6 +6601,8 @@ by R. Vogg  15.March.2002</description>
 <wire x1="100.33" y1="82.55" x2="100.965" y2="83.5025" width="0.4064" layer="16"/>
 <wire x1="100.965" y1="83.5025" x2="100.965" y2="99.06" width="0.4064" layer="16"/>
 <wire x1="100.965" y1="99.06" x2="101.6" y2="100.6475" width="0.4064" layer="16"/>
+<contactref element="U$12" pad="P$6"/>
+<wire x1="128.48631875" y1="129.12131875" x2="125.095" y2="130.175" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$175">
 <contactref element="3B1" pad="AC2"/>
@@ -6788,39 +6861,50 @@ by R. Vogg  15.March.2002</description>
 <wire x1="114.823346875" y1="156.581971875" x2="114.188346875" y2="155.36915" width="1.778" layer="16"/>
 <wire x1="113.3475" y1="152.940803125" x2="114.188346875" y2="155.36915" width="0.6096" layer="16"/>
 </signal>
-<signal name="N$1">
+<signal name="PB0">
 <contactref element="1D3" pad="12"/>
 <wire x1="125.26933125" y1="124.03748125" x2="121.354309375" y2="127.9525" width="0.4064" layer="16"/>
 <contactref element="1D4" pad="7"/>
-<wire x1="119.38" y1="127.9525" x2="121.354309375" y2="127.9525" width="0" layer="19" extent="16-16"/>
+<wire x1="121.354309375" y1="127.9525" x2="119.38" y2="127.9525" width="0.4064" layer="16"/>
+<contactref element="U$12" pad="P$4"/>
+<wire x1="125.26933125" y1="124.03748125" x2="125.657890625" y2="126.292890625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="AIR">
 <contactref element="1D3" pad="11"/>
 <wire x1="122.762940625" y1="125.4125" x2="124.703646875" y2="123.471796875" width="0.4064" layer="16"/>
 <contactref element="1D4" pad="6"/>
-<wire x1="119.38" y1="125.4125" x2="122.762940625" y2="125.4125" width="0" layer="19" extent="16-16"/>
+<wire x1="122.762940625" y1="125.4125" x2="119.38" y2="125.4125" width="0.4064" layer="16"/>
+<contactref element="U$12" pad="P$3"/>
+<wire x1="122.762940625" y1="125.4125" x2="124.243678125" y2="124.878678125" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$3">
+<signal name="PD6">
 <contactref element="1D4" pad="5"/>
 <wire x1="123.219071875" y1="123.825" x2="122.555" y2="123.825" width="0.4064" layer="16"/>
 <wire x1="122.555" y1="123.825" x2="121.6025" y2="122.8725" width="0.4064" layer="16"/>
 <wire x1="121.6025" y1="122.8725" x2="119.38" y2="122.8725" width="0.4064" layer="16"/>
 <contactref element="1D3" pad="10"/>
-<wire x1="123.219071875" y1="123.825" x2="124.1379625" y2="122.9061125" width="0" layer="19" extent="16-16"/>
+<wire x1="124.1379625" y1="122.9061125" x2="124.137959375" y2="122.9061125" width="0.4064" layer="16"/>
+<wire x1="124.137959375" y1="122.9061125" x2="123.219071875" y2="123.825" width="0.4064" layer="16"/>
+<contactref element="U$12" pad="P$2"/>
+<wire x1="122.555" y1="123.825" x2="122.829465625" y2="123.464465625" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$4">
+<signal name="PD5">
 <contactref element="1D3" pad="9"/>
 <wire x1="121.564346875" y1="120.3325" x2="123.572275" y2="122.340425" width="0.4064" layer="16"/>
 <contactref element="1D4" pad="4"/>
-<wire x1="119.38" y1="120.3325" x2="121.564346875" y2="120.3325" width="0" layer="19" extent="16-16"/>
+<wire x1="121.564346875" y1="120.3325" x2="119.38" y2="120.3325" width="0.4064" layer="16"/>
+<contactref element="U$12" pad="P$1"/>
+<wire x1="121.564346875" y1="120.3325" x2="121.41525" y2="122.05025" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$5">
+<signal name="PD3">
 <contactref element="1D3" pad="1"/>
 <wire x1="125.095" y1="112.7125" x2="126.0475" y2="113.665" width="0.4064" layer="16"/>
 <wire x1="126.0475" y1="113.665" x2="127" y2="115.737696875" width="0.4064" layer="16"/>
 <wire x1="127" y1="115.737696875" x2="127.532075" y2="116.269771875" width="0.4064" layer="16"/>
 <contactref element="1D4" pad="1"/>
-<wire x1="119.38" y1="112.7125" x2="125.095" y2="112.7125" width="0" layer="19" extent="16-16"/>
+<wire x1="125.095" y1="112.7125" x2="119.38" y2="112.7125" width="0.4064" layer="16"/>
+<contactref element="U$13" pad="P$1"/>
+<wire x1="125.095" y1="112.7125" x2="131.314746875" y2="109.35025" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="+24V">
 <contactref element="3VD8" pad="2"/>
@@ -6966,8 +7050,6 @@ by R. Vogg  15.March.2002</description>
 <wire x1="90.805" y1="153.289" x2="90.805" y2="157.48" width="1.778" layer="16"/>
 <wire x1="69.5325" y1="149.5425" x2="68.58" y2="147.955" width="1.778" layer="16"/>
 <wire x1="69.5325" y1="157.1625" x2="69.5325" y2="149.5425" width="1.778" layer="16"/>
-<contactref element="J2" pad="1"/>
-<wire x1="65.0875" y1="191.77" x2="63.5" y2="194.945" width="1.9304" layer="16"/>
 <wire x1="84.455" y1="153.3525" x2="84.455" y2="161.925" width="2.1844" layer="16"/>
 <wire x1="84.455" y1="161.925" x2="80.391" y2="170.053" width="2.1844" layer="16"/>
 <wire x1="80.391" y1="170.053" x2="80.3275" y2="170.18" width="2.1844" layer="16"/>
@@ -6984,7 +7066,9 @@ by R. Vogg  15.March.2002</description>
 <wire x1="84.455" y1="153.035" x2="84.455" y2="153.3525" width="1.778" layer="16"/>
 <wire x1="90.805" y1="153.289" x2="84.709" y2="153.289" width="1.778" layer="16"/>
 <wire x1="84.709" y1="153.289" x2="84.455" y2="153.035" width="1.778" layer="16"/>
-<wire x1="65.0875" y1="191.77" x2="74.93" y2="184.4675" width="0" layer="19" extent="16-16"/>
+<contactref element="T1" pad="IN2"/>
+<wire x1="69.63" y1="190.245" x2="74.93" y2="184.4675" width="0" layer="19" extent="16-16"/>
+<wire x1="65.0875" y1="191.77" x2="69.63" y2="190.245" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GD">
 <contactref element="3VT2" pad="1"/>
@@ -9420,12 +9504,6 @@ by R. Vogg  15.March.2002</description>
 <contactref element="2D2" pad="20"/>
 <wire x1="154.41295" y1="179.07" x2="156.0195" y2="179.07" width="0.6096" layer="16"/>
 <wire x1="156.0195" y1="179.07" x2="158.115" y2="178.562" width="0.6096" layer="16"/>
-</signal>
-<signal name="N$90">
-<contactref element="T1" pad="IN2"/>
-<contactref element="J2" pad="2"/>
-<wire x1="69.63" y1="190.245" x2="69.63" y2="194.53" width="1.9304" layer="16"/>
-<wire x1="69.63" y1="194.53" x2="68.58" y2="194.945" width="1.9304" layer="16"/>
 </signal>
 <signal name="IRD">
 <contactref element="3VD10" pad="C"/>
