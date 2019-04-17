@@ -34752,30 +34752,39 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="12.7" y1="-172.085" x2="36.195" y2="-172.085" width="0.2" layer="20"/>
 <wire x1="36.195" y1="-172.085" x2="36.195" y2="-179.07" width="0.2" layer="20"/>
 </package>
-<package name="ER38">
-<wire x1="19" y1="6" x2="15" y2="6" width="0.127" layer="21"/>
-<wire x1="15" y1="6" x2="-15" y2="6" width="0.127" layer="21"/>
-<wire x1="-15" y1="6" x2="-19" y2="6" width="0.127" layer="21"/>
-<wire x1="19" y1="6" x2="19" y2="-6" width="0.127" layer="21"/>
-<wire x1="19" y1="-6" x2="15" y2="-6" width="0.127" layer="21"/>
-<wire x1="15" y1="-6" x2="-15" y2="-6" width="0.127" layer="21"/>
-<wire x1="-15" y1="-6" x2="-19" y2="-6" width="0.127" layer="21"/>
-<wire x1="-19" y1="-6" x2="-19" y2="6" width="0.127" layer="21"/>
-<wire x1="15" y1="18" x2="15" y2="6" width="0.127" layer="21"/>
-<wire x1="15" y1="18" x2="-15" y2="18" width="0.127" layer="21"/>
-<wire x1="-15" y1="18" x2="-15" y2="6" width="0.127" layer="21"/>
-<wire x1="-15" y1="-6" x2="-15" y2="-18" width="0.127" layer="21"/>
-<wire x1="-15" y1="-18" x2="15" y2="-18" width="0.127" layer="21"/>
-<wire x1="15" y1="-6" x2="15" y2="-18" width="0.127" layer="21"/>
-<pad name="IN1" x="-8" y="18" drill="1" diameter="2.54" shape="square"/>
-<pad name="IN2" x="8" y="18" drill="1" diameter="2.54" shape="square"/>
+<package name="E33">
+<wire x1="17" y1="6" x2="-17" y2="6" width="0.127" layer="21"/>
+<wire x1="17" y1="6" x2="17" y2="-6" width="0.127" layer="21"/>
+<wire x1="17" y1="-6" x2="-17" y2="-6" width="0.127" layer="21"/>
+<wire x1="-17" y1="-6" x2="-17" y2="6" width="0.127" layer="21"/>
+<wire x1="17" y1="11" x2="17" y2="6" width="0.127" layer="21"/>
+<wire x1="14" y1="14" x2="8" y2="14" width="0.127" layer="21"/>
+<wire x1="-8" y1="14" x2="-17" y2="14" width="0.127" layer="21"/>
+<wire x1="-17" y1="14" x2="-17" y2="6" width="0.127" layer="21"/>
+<wire x1="-17" y1="-6" x2="-17" y2="-14" width="0.127" layer="21"/>
+<wire x1="17" y1="-6" x2="17" y2="-14" width="0.127" layer="21"/>
+<pad name="IN1" x="0" y="11.5" drill="1" diameter="2.54" shape="long" rot="R270"/>
+<pad name="IN2" x="10" y="11.5" drill="1" diameter="2.54" shape="long" rot="R90"/>
 <pad name="GND" x="-14" y="-19" drill="2.5" diameter="4" shape="square"/>
-<pad name="24-1" x="14" y="-18" drill="1" diameter="2.54" shape="square"/>
-<pad name="24-2" x="10" y="-18" drill="1" diameter="2.54" shape="square"/>
-<pad name="5-1" x="5" y="-18" drill="1" diameter="2.54" shape="square"/>
-<pad name="5-2" x="1" y="-18" drill="1" diameter="2.54" shape="square"/>
-<pad name="12-1" x="-4" y="-18" drill="1" diameter="2.54" shape="square"/>
-<pad name="12-2" x="-8" y="-18" drill="1" diameter="2.54" shape="square"/>
+<pad name="24-1" x="15" y="-11.5" drill="1" diameter="2.54" shape="square"/>
+<pad name="24-2" x="10" y="-11.5" drill="1" diameter="2.54" shape="square"/>
+<pad name="5-1" x="5" y="-11.5" drill="1" diameter="2.54" shape="square"/>
+<pad name="5-2" x="0" y="-11.5" drill="1" diameter="2.54" shape="square"/>
+<pad name="12-1" x="-5" y="-11.5" drill="1" diameter="2.54" shape="square"/>
+<pad name="12-2" x="-10" y="-11.5" drill="1" diameter="2.54" shape="square"/>
+<wire x1="-8" y1="14" x2="-3" y2="16" width="0.127" layer="21"/>
+<wire x1="-3" y1="16" x2="3" y2="16" width="0.127" layer="21"/>
+<wire x1="3" y1="16" x2="8" y2="14" width="0.127" layer="21"/>
+<wire x1="8" y1="-14" x2="3" y2="-16" width="0.127" layer="21"/>
+<wire x1="3" y1="-16" x2="-3" y2="-16" width="0.127" layer="21"/>
+<wire x1="-3" y1="-16" x2="-8" y2="-14" width="0.127" layer="21"/>
+<wire x1="-8" y1="-14" x2="-17" y2="-14" width="0.127" layer="21"/>
+<wire x1="8" y1="-14" x2="17" y2="-14" width="0.127" layer="21"/>
+<pad name="NC" x="-15" y="-11.5" drill="1" diameter="2.54" shape="square"/>
+<wire x1="14" y1="14" x2="17" y2="11" width="0.127" layer="21"/>
+<pad name="IR2" x="-15" y="11.5" drill="1" diameter="2.54" shape="square"/>
+<pad name="IR0" x="-10" y="11.5" drill="1" diameter="2.54" shape="square"/>
+<pad name="IR1" x="-5" y="11.5" drill="1" diameter="2.54" shape="square"/>
 </package>
 <package name="C_D25-12">
 <pad name="+" x="-6.0325" y="0" drill="2" diameter="5"/>
@@ -35332,7 +35341,7 @@ grid 2.54 mm</description>
 <wire x1="7.62" y1="7.62" x2="1.905" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="1.905" y1="7.62" x2="0.127" y2="5.842" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="TRANS2">
+<symbol name="TRANS3">
 <description>Трансформатор для IR2153</description>
 <wire x1="10.16" y1="15.24" x2="10.16" y2="12.7" width="0.254" layer="94" curve="180"/>
 <wire x1="10.16" y1="12.7" x2="10.16" y2="10.16" width="0.254" layer="94" curve="180"/>
@@ -35384,6 +35393,15 @@ grid 2.54 mm</description>
 <wire x1="0" y1="17.78" x2="0" y2="15.24" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="15.24" x2="0" y2="12.7" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="12.7" x2="0" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="IROUT1" x="-5.08" y="5.08" visible="off" length="middle"/>
+<pin name="IROUT2" x="-5.08" y="-10.16" visible="off" length="middle"/>
+<pin name="IROUT0" x="-5.08" y="-2.54" visible="off" length="middle"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-10.16" width="0.254" layer="94" curve="-180"/>
 </symbol>
 <symbol name="CPOL">
 <wire x1="-1.524" y1="-0.889" x2="1.524" y2="-0.889" width="0.254" layer="94"/>
@@ -36114,12 +36132,12 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TRANS_ER38">
+<deviceset name="E33">
 <gates>
-<gate name="G$1" symbol="TRANS2" x="-2.54" y="-10.16"/>
+<gate name="G$1" symbol="TRANS3" x="-5.08" y="-12.7"/>
 </gates>
 <devices>
-<device name="" package="ER38">
+<device name="" package="E33">
 <connects>
 <connect gate="G$1" pin="12-1" pad="12-1"/>
 <connect gate="G$1" pin="12-2" pad="12-2"/>
@@ -36130,6 +36148,9 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="IN1" pad="IN1"/>
 <connect gate="G$1" pin="IN2" pad="IN2"/>
+<connect gate="G$1" pin="IROUT0" pad="IR0"/>
+<connect gate="G$1" pin="IROUT1" pad="IR1"/>
+<connect gate="G$1" pin="IROUT2" pad="IR2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -40056,7 +40077,7 @@ DIN A4, landscape with extra doc field</description>
 </part>
 <part name="PREH_C" library="con-lstb" deviceset="MA04-2" device=""/>
 <part name="1D4" library="DSS" deviceset="ULN2003" device="D" value="ULN2003N"/>
-<part name="T1" library="DSS0" deviceset="TRANS_ER38" device=""/>
+<part name="T1" library="DSS0" deviceset="E33" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="S_REL" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
