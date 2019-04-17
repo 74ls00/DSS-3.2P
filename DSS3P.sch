@@ -34903,8 +34903,8 @@ grid 2.54 mm</description>
 <pad name="P$1" x="-7" y="0" drill="0.8"/>
 <pad name="P$2" x="-5" y="0" drill="0.8"/>
 <pad name="P$3" x="-3" y="0" drill="0.8"/>
-<pad name="P$4" x="-1" y="0" drill="0.8"/>
-<pad name="P$5" x="1" y="0" drill="0.8"/>
+<pad name="P$4" x="-1" y="0" drill="0.8" diameter="1.6764"/>
+<pad name="P$5" x="1" y="0" drill="0.8" diameter="1.6764"/>
 <pad name="P$6" x="3" y="0" drill="0.8"/>
 <pad name="P$7" x="5" y="0" drill="0.8"/>
 <pad name="P$8" x="7" y="0" drill="0.8"/>
@@ -39714,7 +39714,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="1C19" library="resistor" deviceset="C-EU" device="102-043X133" value="100nx400v"/>
 <part name="1OK1" library="DSS" deviceset="MOC3063M" device="D" value="MOC3063"/>
 <part name="1T1" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600CWRG"/>
-<part name="1R33" library="resistor" deviceset="R-EU_" device="0207/12" value="510"/>
+<part name="1R33" library="resistor" deviceset="R-EU_" device="0207/10" value="510"/>
 <part name="1R40" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R36" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R43" library="resistor" deviceset="R-EU_" device="0613/15" value="39"/>
@@ -40119,6 +40119,8 @@ DIN A4, landscape with extra doc field</description>
 <part name="U$9" library="DSS0" deviceset="PIN2X8" device=""/>
 <part name="U$12" library="DSS0" deviceset="PIN2X8" device=""/>
 <part name="U$13" library="DSS0" deviceset="PIN2X8" device=""/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="1VT1B" library="transistor" deviceset="BC847" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -43059,6 +43061,11 @@ DIN A4, landscape with extra doc field</description>
 <instance part="U$9" gate="G$1" x="50.8" y="50.8"/>
 <instance part="U$12" gate="G$1" x="22.86" y="27.94"/>
 <instance part="U$13" gate="G$1" x="22.86" y="50.8"/>
+<instance part="GND7" gate="1" x="96.52" y="33.02"/>
+<instance part="1VT1B" gate="G$1" x="93.98" y="43.18" smashed="yes">
+<attribute name="NAME" x="86.36" y="38.1" size="1.778" layer="95"/>
+<attribute name="VALUE" x="86.36" y="35.56" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -43319,11 +43326,17 @@ DIN A4, landscape with extra doc field</description>
 <label x="50.8" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="BZB" class="0">
 <segment>
 <pinref part="1VT1" gate="G$1" pin="B"/>
 <pinref part="1R32" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="22.86" x2="101.6" y2="22.86" width="0.1524" layer="91"/>
+<label x="101.6" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="91.44" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
+<label x="86.36" y="43.18" size="1.778" layer="95"/>
+<pinref part="1VT1B" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -43672,6 +43685,11 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="22.86" y1="40.64" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
 <label x="22.86" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="96.52" y1="38.1" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="1VT1B" gate="G$1" pin="E"/>
+</segment>
 </net>
 <net name="PWM_FEN_P" class="0">
 <segment>
@@ -43805,11 +43823,17 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="172.72" y1="111.76" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="BZK" class="0">
 <segment>
 <pinref part="1VT1" gate="G$1" pin="C"/>
 <pinref part="B1" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="27.94" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
+<label x="109.22" y="25.4" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="96.52" y1="48.26" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
+<label x="96.52" y="48.26" size="1.778" layer="95" rot="R90"/>
+<pinref part="1VT1B" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="R_PREH" class="0">

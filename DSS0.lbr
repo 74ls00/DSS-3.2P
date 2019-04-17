@@ -2065,8 +2065,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <pad name="P$1" x="-7" y="0" drill="0.8"/>
 <pad name="P$2" x="-5" y="0" drill="0.8"/>
 <pad name="P$3" x="-3" y="0" drill="0.8"/>
-<pad name="P$4" x="-1" y="0" drill="0.8"/>
-<pad name="P$5" x="1" y="0" drill="0.8"/>
+<pad name="P$4" x="-1" y="0" drill="0.8" diameter="1.6764"/>
+<pad name="P$5" x="1" y="0" drill="0.8" diameter="1.6764"/>
 <pad name="P$6" x="3" y="0" drill="0.8"/>
 <pad name="P$7" x="5" y="0" drill="0.8"/>
 <pad name="P$8" x="7" y="0" drill="0.8"/>
