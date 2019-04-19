@@ -40141,7 +40141,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="3C14" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="100x16v"/>
 <part name="1OK3" library="DSS" deviceset="MOC3063M" device="D" value="MOC3063"/>
 <part name="1T3" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600CWRG"/>
-<part name="1R35" library="resistor" deviceset="R-EU_" device="0207/10" value="510"/>
+<part name="1R35" library="resistor" deviceset="R-EU_" device="0207/15" value="510"/>
 <part name="1R42" library="resistor" deviceset="R-EU_" device="0207/10" value="390"/>
 <part name="1R39" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R45" library="resistor" deviceset="R-EU_" device="0207/10" value="39"/>
@@ -40567,6 +40567,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="1R47" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="P+20" library="supply1" deviceset="+5V" device=""/>
 <part name="1VT7" library="transistor" deviceset="*-NPN-" device="TO92-ECB" value="KT315"/>
+<part name="1C13" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -43370,7 +43371,10 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="VALUE" x="67.31" y="179.578" size="1.778" layer="96"/>
 </instance>
 <instance part="GND20" gate="1" x="200.66" y="45.72" rot="MR0"/>
-<instance part="AIR" gate="G$1" x="162.56" y="58.42" rot="MR0"/>
+<instance part="AIR" gate="G$1" x="162.56" y="60.96" smashed="yes" rot="R180">
+<attribute name="VALUE" x="165.1" y="66.04" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="160.02" y="64.262" size="1.778" layer="95"/>
+</instance>
 <instance part="P+13" gate="1" x="15.24" y="170.18" smashed="yes">
 <attribute name="VALUE" x="17.78" y="172.72" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -43564,6 +43568,7 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="NAME" x="113.792" y="39.116" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.03" y="36.322" size="1.778" layer="96"/>
 </instance>
+<instance part="1C13" gate="G$1" x="17.78" y="93.98" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -43855,6 +43860,9 @@ DIN A4, landscape with extra doc field</description>
 <junction x="15.24" y="157.48"/>
 <wire x1="15.24" y1="160.02" x2="15.24" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="167.64" x2="25.4" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="1C13" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="96.52" x2="17.78" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="1R30" gate="G$1" pin="1"/>
@@ -43928,7 +43936,7 @@ DIN A4, landscape with extra doc field</description>
 <label x="231.14" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AIR" gate="G$1" pin="1"/>
+<pinref part="AIR" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
 <label x="154.94" y="58.42" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -44066,6 +44074,9 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="25.4" y1="78.74" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
 <junction x="25.4" y="78.74"/>
+<wire x1="25.4" y1="86.36" x2="17.78" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="1C13" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="86.36" x2="17.78" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND33" gate="1" pin="GND"/>
@@ -44292,7 +44303,7 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="241.3" y1="50.8" x2="241.3" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="AIR" gate="G$1" pin="2"/>
+<pinref part="AIR" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="60.96" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+24V"/>
 <wire x1="152.4" y1="60.96" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
