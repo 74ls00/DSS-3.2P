@@ -40121,7 +40121,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="1C6" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="1R21" library="resistor" deviceset="R-EU_" device="M1206" value="33k"/>
 <part name="1C7" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="1R31" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
+<part name="1R31" library="resistor" deviceset="R-EU_" device="0207/10" value="33k"/>
 <part name="1VD1" library="diode" deviceset="1N4148" device="DO35-10" value="1N4148DO35-10"/>
 <part name="1R30" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="1D1" library="linear" deviceset="LM358" device="D" value="LM358D"/>
@@ -40495,7 +40495,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="P+14" library="supply1" deviceset="+24V" device=""/>
 <part name="P+2" library="supply1" deviceset="+24V" device=""/>
-<part name="2J6" library="resistor" deviceset="R-EU_" device="R3225W" value="0"/>
+<part name="2J6" library="resistor" deviceset="R-EU_" device="R1206W" value="0"/>
 <part name="P+19" library="supply1" deviceset="VCC" device=""/>
 <part name="P+21" library="supply1" deviceset="VCC" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
