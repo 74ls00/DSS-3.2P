@@ -40148,7 +40148,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="1C19" library="resistor" deviceset="C-EU" device="102-043X133" value="100nx400v"/>
 <part name="1OK1" library="DSS" deviceset="MOC3063M" device="D" value="MOC3063"/>
 <part name="1T1" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600CWRG"/>
-<part name="1R33" library="resistor" deviceset="R-EU_" device="0207/10" value="510"/>
+<part name="1R33" library="resistor" deviceset="R-EU_" device="0207/12" value="510"/>
 <part name="1R40" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R36" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R43" library="resistor" deviceset="R-EU_" device="0613/15" value="39"/>
@@ -40380,7 +40380,6 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="4R17" library="rcl" deviceset="R-EU_" device="R1206W" value="0"/>
 <part name="4J1" library="resistor" deviceset="R-EU_" device="R1206W" value="1k"/>
@@ -40495,7 +40494,6 @@ DIN A4, landscape with extra doc field</description>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="P+14" library="supply1" deviceset="+24V" device=""/>
 <part name="P+2" library="supply1" deviceset="+24V" device=""/>
-<part name="2J6" library="resistor" deviceset="R-EU_" device="R1206W" value="0"/>
 <part name="P+19" library="supply1" deviceset="VCC" device=""/>
 <part name="P+21" library="supply1" deviceset="VCC" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
@@ -40569,6 +40567,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="1VT7" library="transistor" deviceset="*-NPN-" device="TO92-ECB" value="KT315"/>
 <part name="1C13" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="1Q1" library="crystal" deviceset="CRYSTAL" device="HC49U-V"/>
+<part name="P+6" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -43400,9 +43399,6 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="VALUE" x="242.57" y="62.23" size="1.778" layer="96"/>
 </instance>
 <instance part="DISPL1" gate="1" x="162.56" y="45.72"/>
-<instance part="P+7" gate="1" x="172.72" y="66.04" smashed="yes">
-<attribute name="VALUE" x="175.26" y="68.58" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND9" gate="1" x="179.07" y="45.72" rot="MR270"/>
 <instance part="1D4" gate="A" x="215.9" y="60.96" smashed="yes">
 <attribute name="NAME" x="208.28" y="75.692" size="1.778" layer="95"/>
@@ -43417,10 +43413,6 @@ DIN A4, landscape with extra doc field</description>
 </instance>
 <instance part="P+2" gate="1" x="152.4" y="66.04" smashed="yes">
 <attribute name="VALUE" x="154.94" y="69.85" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="2J6" gate="G$1" x="172.72" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="176.3014" y="52.07" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="174.498" y="62.23" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="P+19" gate="VCC" x="25.4" y="170.18" smashed="yes">
 <attribute name="VALUE" x="27.94" y="172.72" size="1.778" layer="96" rot="R180"/>
@@ -43573,6 +43565,9 @@ DIN A4, landscape with extra doc field</description>
 <instance part="1Q1" gate="G$1" x="104.14" y="180.34" smashed="yes">
 <attribute name="NAME" x="101.6" y="183.896" size="1.778" layer="95"/>
 <attribute name="VALUE" x="106.68" y="177.8" size="1.778" layer="96"/>
+</instance>
+<instance part="P+6" gate="VCC" x="180.34" y="55.88" smashed="yes">
+<attribute name="VALUE" x="182.88" y="58.42" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -43926,6 +43921,12 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="22.86" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
 <label x="22.86" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="DISPL1" gate="1" pin="5"/>
+<wire x1="170.18" y1="48.26" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="P+6" gate="VCC" pin="VCC"/>
+<wire x1="180.34" y1="48.26" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="V_PROG" class="0">
 <segment>
@@ -43935,6 +43936,7 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="73.66" y1="167.64" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="167.64" x2="76.2" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="167.64" x2="78.74" y2="167.64" width="0.1524" layer="91"/>
+<junction x="76.2" y="167.64"/>
 </segment>
 </net>
 <net name="M_FEN" class="0">
@@ -44216,11 +44218,6 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="15.24" y1="165.1" x2="15.24" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P+7" gate="1" pin="+5V"/>
-<pinref part="2J6" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="63.5" x2="172.72" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="P+20" gate="1" pin="+5V"/>
 <pinref part="B2" gate="G$1" pin="1"/>
 <wire x1="127" y1="68.58" x2="127" y2="66.04" width="0.1524" layer="91"/>
@@ -44398,14 +44395,6 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="S_REL" gate="G$1" pin="3"/>
 <wire x1="228.6" y1="63.5" x2="241.3" y2="63.5" width="0.1524" layer="91"/>
 <label x="231.14" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$68" class="0">
-<segment>
-<pinref part="DISPL1" gate="1" pin="5"/>
-<wire x1="170.18" y1="48.26" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="2J6" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="50.8" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$47" class="0">
