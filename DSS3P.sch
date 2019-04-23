@@ -40101,7 +40101,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="1R14" library="resistor" deviceset="R-EU_" device="M0805" value="1k"/>
 <part name="1R5" library="resistor" deviceset="R-EU_" device="M0805" value="1k"/>
 <part name="1C8" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="1C9" library="resistor" deviceset="C-EU" device="C1206" value="100n"/>
+<part name="1C9" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="1R19" library="resistor" deviceset="R-TRIMM" device="3296W" value="100"/>
 <part name="1R20" library="resistor" deviceset="R-TRIMM" device="3296W" value="100"/>
 <part name="1C4" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
@@ -40155,7 +40155,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="1C17" library="resistor" deviceset="C-EU" device="102-043X133" value="100nx400v"/>
 <part name="1OK2" library="DSS" deviceset="MOC3063M" device="D" value="MOC3063"/>
 <part name="1T2" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600CWRG"/>
-<part name="1R34" library="resistor" deviceset="R-EU_" device="0207/10" value="510"/>
+<part name="1R34" library="resistor" deviceset="R-EU_" device="0207/12" value="510"/>
 <part name="1R41" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R37" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R44" library="resistor" deviceset="R-EU_" device="0613/15" value="39"/>
@@ -40421,7 +40421,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="2R3" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="2R4" library="resistor" deviceset="R-EU_" device="M1206" value="1k"/>
-<part name="2R5" library="resistor" deviceset="R-EU_" device="0207/15" value="5k6"/>
+<part name="2R5" library="resistor" deviceset="R-EU_" device="0207/10" value="5k6"/>
 <part name="2R6" library="resistor" deviceset="R-EU_" device="M0805" value="1k"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
