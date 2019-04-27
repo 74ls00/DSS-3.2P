@@ -40572,6 +40572,8 @@ DIN A4, landscape with extra doc field</description>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="1R32" library="resistor" deviceset="R-EU_" device="R1206W"/>
+<part name="DISPL3" library="con-lstb" deviceset="MA03-2" device=""/>
+<part name="DISPL4" library="con-lstb" deviceset="MA03-2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -43577,6 +43579,8 @@ DIN A4, landscape with extra doc field</description>
 <instance part="C2" gate="G$1" x="121.92" y="175.26"/>
 <instance part="GND7" gate="1" x="121.92" y="162.56" rot="MR0"/>
 <instance part="1R32" gate="G$1" x="104.14" y="175.26"/>
+<instance part="DISPL3" gate="1" x="121.92" y="-25.4"/>
+<instance part="DISPL4" gate="1" x="147.32" y="-33.02"/>
 </instances>
 <busses>
 </busses>
