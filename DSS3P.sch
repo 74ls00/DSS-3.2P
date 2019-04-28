@@ -40689,7 +40689,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="U$13" library="DSS0" deviceset="PIN2X8" device=""/>
 <part name="3VD11" library="diode" deviceset="DIODE-" device="DO214AC" value="SS14"/>
 <part name="3VD12" library="diode" deviceset="DIODE-" device="DO214AC" value="SS14"/>
-<part name="3R12" library="resistor" deviceset="R-EU_" device="0414/15" value="220 0.5w"/>
+<part name="3R12" library="resistor" deviceset="R-EU_" device="0411/12" value="220 0.5w"/>
 <part name="3C8" library="resistor" deviceset="C-EU" device="050-025X075" value="100n"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="1VT5B" library="DSS0" deviceset="NMOS" device="V" value="NMOS"/>
