@@ -40275,7 +40275,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="1R21" library="resistor" deviceset="R-EU_" device="M1206" value="33k"/>
 <part name="1C7" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="1R31" library="resistor" deviceset="R-EU_" device="0207/10" value="33k"/>
-<part name="1VD1" library="diode" deviceset="1N4148" device="DO35-10" value="1N4148DO35-10"/>
+<part name="1VD1" library="diode" deviceset="1N4148" device="DO35-10" value="1N4148"/>
 <part name="1R30" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="1D1" library="linear" deviceset="LM358" device="D" value="LM358D"/>
 <part name="1D2" library="linear" deviceset="LM358" device="D" value="LM358D"/>
@@ -40293,21 +40293,21 @@ DIN A4, landscape with extra doc field</description>
 <part name="3D2" library="v-reg" deviceset="78XXS" device="" value="7805"/>
 <part name="3C14" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="100x16v"/>
 <part name="1OK3" library="DSS" deviceset="MOC3063M" device="D" value="MOC3063"/>
-<part name="1T3" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600CWRG"/>
+<part name="1T3" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600"/>
 <part name="1R35" library="resistor" deviceset="R-EU_" device="0207/12" value="510"/>
 <part name="1R42" library="resistor" deviceset="R-EU_" device="0207/10" value="390"/>
 <part name="1R39" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R45" library="resistor" deviceset="R-EU_" device="0207/10" value="39"/>
 <part name="1C19" library="resistor" deviceset="C-EU" device="102-043X133" value="100nx400v"/>
 <part name="1OK1" library="DSS" deviceset="MOC3063M" device="D" value="MOC3063"/>
-<part name="1T1" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600CWRG"/>
+<part name="1T1" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600"/>
 <part name="1R33" library="resistor" deviceset="R-EU_" device="0207/12" value="510"/>
 <part name="1R40" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R36" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R43" library="resistor" deviceset="R-EU_" device="0613/15" value="39"/>
 <part name="1C17" library="resistor" deviceset="C-EU" device="102-043X133" value="100nx400v"/>
 <part name="1OK2" library="DSS" deviceset="MOC3063M" device="D" value="MOC3063"/>
-<part name="1T2" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600CWRG"/>
+<part name="1T2" library="ON Semiconductor_simistor" deviceset="BTA16-600CW3G" device="TO220DS" value="BTA12-600"/>
 <part name="1R34" library="resistor" deviceset="R-EU_" device="0207/12" value="510"/>
 <part name="1R41" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
 <part name="1R37" library="resistor" deviceset="R-EU_" device="0613/15" value="390"/>
@@ -40487,15 +40487,15 @@ DIN A4, landscape with extra doc field</description>
 <part name="U$1" library="DSS" deviceset="R2W" device=""/>
 <part name="U$4" library="DSS" deviceset="R0.5W" device=""/>
 <part name="3D1" library="IC" deviceset="IR2153" device="D" value="IR2153D"/>
-<part name="J1" library="jumper" deviceset="J" device="12MM" value="J12MM"/>
+<part name="3J1" library="jumper" deviceset="J" device="12MM" value="J12MM"/>
 <part name="MFRAME" library="DSS" deviceset="_SYMBOL" device="_MFRAME"/>
 <part name="1R24A" library="resistor" deviceset="R-EU_" device="M0805"/>
 <part name="1R22A" library="resistor" deviceset="R-EU_" device="R0805"/>
-<part name="3KK1" library="heatsink" deviceset="D03PA-PAD" device=""/>
-<part name="3KK2" library="heatsink" deviceset="D03PA-PAD" device=""/>
-<part name="1KK2" library="heatsink" deviceset="D03PA-PAD" device=""/>
-<part name="1KK1" library="heatsink" deviceset="D03PA-PAD" device=""/>
-<part name="1KK3" library="heatsink" deviceset="D03PA-PAD" device=""/>
+<part name="3KK1" library="heatsink" deviceset="D03PA-PAD" device="" value=""/>
+<part name="3KK2" library="heatsink" deviceset="D03PA-PAD" device="" value=""/>
+<part name="1KK2" library="heatsink" deviceset="D03PA-PAD" device="" value=""/>
+<part name="1KK1" library="heatsink" deviceset="D03PA-PAD" device="" value=""/>
+<part name="1KK3" library="heatsink" deviceset="D03PA-PAD" device="" value=""/>
 <part name="3VD5" library="diode" deviceset="DIODE-" device="DO214AC" value="SS14"/>
 <part name="3VD6" library="diode" deviceset="DIODE-" device="DO214AC" value="SS14"/>
 <part name="U$5" library="DSS" deviceset="R1W" device=""/>
@@ -40668,7 +40668,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="3R9" library="resistor" deviceset="R-EU_" device="M0805" value="1k"/>
 <part name="3HL1" library="led" deviceset="LED" device="3MM"/>
 <part name="3R10" library="resistor" deviceset="R-EU_" device="M0805" value="220"/>
-<part name="1VT6" library="transistor" deviceset="*-NPN-" device="TO92-ECB"/>
+<part name="1VT6" library="transistor" deviceset="*-NPN-" device="TO92-ECB" value="KT3102"/>
 <part name="3C8A" library="rcl" deviceset="C-EU" device="050-025X075" value="4n7"/>
 <part name="3R11" library="resistor" deviceset="R-EU_" device="M0805" value="2k2"/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
@@ -40720,9 +40720,9 @@ DIN A4, landscape with extra doc field</description>
 <part name="AIR_POWER" library="con-lstb" deviceset="MA04-1" device=""/>
 <part name="P+7" library="supply1" deviceset="+24V" device=""/>
 <part name="PREH_C" library="DSS0" deviceset="MA06-2" device=""/>
-<part name="3KK3" library="heatsink" deviceset="D03PA-PAD" device=""/>
-<part name="3KK4" library="heatsink" deviceset="D03PA-PAD" device=""/>
-<part name="3KK5" library="heatsink" deviceset="D03PA-PAD" device=""/>
+<part name="3KK3" library="heatsink" deviceset="D03PA-PAD" device="" value=""/>
+<part name="3KK4" library="heatsink" deviceset="D03PA-PAD" device="" value=""/>
+<part name="3KK5" library="heatsink" deviceset="D03PA-PAD" device="" value=""/>
 <part name="DISPL3" library="DSS" deviceset="CON_7P_2" device=""/>
 </parts>
 <sheets>
@@ -42636,6 +42636,7 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="68.58" y1="27.94" x2="68.58" y2="5.08" width="0.1524" layer="98"/>
 <text x="10.16" y="177.8" size="2.54" layer="90">Main PCB</text>
 <text x="25.4" y="58.42" size="1.778" layer="91">1e5* 2w</text>
+<text x="144.78" y="12.7" size="1.778" layer="98">D03PA-PAD</text>
 </plain>
 <instances>
 <instance part="3C10" gate="G$1" x="193.04" y="58.42" smashed="yes" rot="R90">
@@ -42729,7 +42730,7 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="NAME" x="100.0506" y="70.1294" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="108.9406" y="70.2818" size="2.0828" layer="96" ratio="10" rot="SR0"/>
 </instance>
-<instance part="J1" gate="1" x="152.4" y="118.11" rot="R90"/>
+<instance part="3J1" gate="1" x="152.4" y="118.11" rot="R90"/>
 <instance part="3KK1" gate="G$1" x="91.44" y="20.32"/>
 <instance part="3KK2" gate="G$1" x="91.44" y="10.16"/>
 <instance part="3VD5" gate="G$1" x="210.82" y="114.3" smashed="yes">
@@ -42814,7 +42815,7 @@ DIN A4, landscape with extra doc field</description>
 </instance>
 <instance part="1VT6" gate="G$1" x="45.72" y="93.98" smashed="yes" rot="MR90">
 <attribute name="NAME" x="48.26" y="91.44" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="50.8" y="83.82" size="1.778" layer="96" rot="MR90"/>
+<attribute name="VALUE" x="48.26" y="88.9" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="3C8A" gate="G$1" x="38.1" y="88.9" smashed="yes">
 <attribute name="NAME" x="37.084" y="76.581" size="1.778" layer="95"/>
@@ -43156,7 +43157,7 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="POWER+" class="0">
 <segment>
-<pinref part="J1" gate="1" pin="2"/>
+<pinref part="3J1" gate="1" pin="2"/>
 <wire x1="152.4" y1="123.19" x2="152.4" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="3B1" gate="G$1" pin="+"/>
 <wire x1="40.64" y1="129.54" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
@@ -43318,7 +43319,7 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="DU" class="0">
 <segment>
-<pinref part="J1" gate="1" pin="1"/>
+<pinref part="3J1" gate="1" pin="1"/>
 <pinref part="3VT1" gate="G$1" pin="D"/>
 <wire x1="152.4" y1="113.03" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
 <label x="154.94" y="109.22" size="1.778" layer="95" rot="R90"/>
@@ -45834,7 +45835,8 @@ J2 t12</text>
 <attribute name="VALUE" x="190.4746" y="137.2362" size="1.778" layer="96"/>
 </instance>
 <instance part="1T3" gate="G$1" x="223.52" y="144.78" smashed="yes">
-<attribute name="NAME" x="214.884" y="146.05" size="1.778" layer="95"/>
+<attribute name="NAME" x="215.9" y="149.86" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="220.98" y="147.32" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="1R35" gate="G$1" x="180.34" y="152.4" smashed="yes">
 <attribute name="NAME" x="177.8" y="153.8986" size="1.778" layer="95"/>
@@ -45861,7 +45863,8 @@ J2 t12</text>
 <attribute name="VALUE" x="32.9946" y="68.6562" size="1.778" layer="96"/>
 </instance>
 <instance part="1T1" gate="G$1" x="66.04" y="76.2" smashed="yes">
-<attribute name="NAME" x="58.674" y="76.2" size="1.778" layer="95"/>
+<attribute name="NAME" x="63.5" y="81.28" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="63.5" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="1R33" gate="G$1" x="22.86" y="83.82" smashed="yes">
 <attribute name="NAME" x="20.066" y="85.3186" size="1.778" layer="95"/>
@@ -45888,15 +45891,16 @@ J2 t12</text>
 <attribute name="VALUE" x="198.0946" y="61.0362" size="1.778" layer="96"/>
 </instance>
 <instance part="1T2" gate="G$1" x="231.14" y="68.58" smashed="yes">
-<attribute name="NAME" x="224.79" y="68.58" size="1.778" layer="95"/>
+<attribute name="NAME" x="226.06" y="73.66" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="228.6" y="71.12" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="1R34" gate="G$1" x="187.96" y="76.2" smashed="yes">
 <attribute name="NAME" x="185.166" y="77.6986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="185.42" y="72.898" size="1.778" layer="96"/>
 </instance>
 <instance part="1R41" gate="G$1" x="223.52" y="76.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="224.536" y="82.3214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="224.79" y="79.502" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="227.076" y="82.3214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="227.33" y="79.502" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="1R37" gate="G$1" x="223.52" y="58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="215.646" y="57.1246" size="1.778" layer="95"/>
@@ -45940,9 +45944,18 @@ J2 t12</text>
 </instance>
 <instance part="1R24A" gate="G$1" x="129.54" y="177.8" rot="MR0"/>
 <instance part="1R22A" gate="G$1" x="137.16" y="99.06" rot="MR0"/>
-<instance part="1KK2" gate="G$1" x="251.46" y="78.74" rot="R90"/>
-<instance part="1KK1" gate="G$1" x="88.9" y="83.82" rot="R90"/>
-<instance part="1KK3" gate="G$1" x="248.92" y="152.4" rot="R90"/>
+<instance part="1KK2" gate="G$1" x="251.46" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="247.015" y="84.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="250.825" y="84.455" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="1KK1" gate="G$1" x="88.9" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="84.455" y="89.535" size="1.778" layer="95"/>
+<attribute name="VALUE" x="88.265" y="89.535" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="1KK3" gate="G$1" x="248.92" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="244.475" y="158.115" size="1.778" layer="95"/>
+<attribute name="VALUE" x="248.285" y="158.115" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="FAN_C" gate="1" x="198.12" y="167.64" smashed="yes" rot="R180">
 <attribute name="VALUE" x="201.93" y="180.34" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="194.31" y="178.562" size="1.778" layer="95"/>
