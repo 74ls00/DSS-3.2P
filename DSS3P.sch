@@ -40487,7 +40487,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="U$1" library="DSS" deviceset="R2W" device=""/>
 <part name="U$4" library="DSS" deviceset="R0.5W" device=""/>
 <part name="3D1" library="IC" deviceset="IR2153" device="D" value="IR2153D"/>
-<part name="3J1" library="jumper" deviceset="J" device="12MM" value="J12MM"/>
+<part name="3J1" library="jumper" deviceset="J" device="10MM" value="J10MM"/>
 <part name="MFRAME" library="DSS" deviceset="_SYMBOL" device="_MFRAME"/>
 <part name="1R24A" library="resistor" deviceset="R-EU_" device="M0805"/>
 <part name="1R22A" library="resistor" deviceset="R-EU_" device="R0805"/>
@@ -40724,6 +40724,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="3KK4" library="heatsink" deviceset="D03PA-PAD" device="" value=""/>
 <part name="3KK5" library="heatsink" deviceset="D03PA-PAD" device="" value=""/>
 <part name="DISPL3" library="DSS" deviceset="CON_7P_2" device=""/>
+<part name="S2_B" library="pinhead" deviceset="PINHD-1X1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -43558,8 +43559,8 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="VALUE" x="17.78" y="172.72" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="4VT1" gate="G$1" x="162.56" y="20.32" smashed="yes">
-<attribute name="NAME" x="159.258" y="26.924" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="161.29" y="24.638" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="167.64" y="22.86" size="1.778" layer="95"/>
+<attribute name="VALUE" x="165.1" y="20.32" size="1.778" layer="96"/>
 </instance>
 <instance part="GND33" gate="1" x="165.1" y="10.16" rot="MR0"/>
 <instance part="4R12" gate="G$1" x="147.32" y="20.32" smashed="yes">
@@ -43599,7 +43600,7 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="VALUE" x="143.51" y="15.4686" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="S2_S" gate="G$1" x="165.1" y="33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="160.655" y="27.94" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="162.56" y="34.925" size="1.778" layer="95"/>
 <attribute name="VALUE" x="170.18" y="26.67" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -43751,6 +43752,10 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="VALUE" x="246.38" y="100.33" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="DISPL3" gate="G$1" x="149.86" y="-15.24"/>
+<instance part="S2_B" gate="G$1" x="157.48" y="33.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="154.94" y="34.925" size="1.778" layer="95"/>
+<attribute name="VALUE" x="162.56" y="26.67" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -44556,6 +44561,8 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="157.48" y1="20.32" x2="152.4" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="17.78" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
 <junction x="157.48" y="20.32"/>
+<pinref part="S2_B" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="30.48" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_SEL" class="0">
