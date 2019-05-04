@@ -42716,12 +42716,12 @@ DIN A4, landscape with extra doc field</description>
 <instance part="3KK1" gate="G$1" x="119.38" y="20.32"/>
 <instance part="3KK2" gate="G$1" x="119.38" y="10.16"/>
 <instance part="3VD5" gate="G$1" x="210.82" y="114.3" smashed="yes">
-<attribute name="NAME" x="224.79" y="107.1626" size="1.778" layer="95"/>
-<attribute name="VALUE" x="224.79" y="104.3686" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="119.8626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="207.01" y="117.0686" size="1.778" layer="96"/>
 </instance>
 <instance part="3VD6" gate="G$1" x="210.82" y="104.14" smashed="yes">
-<attribute name="NAME" x="232.41" y="107.1626" size="1.778" layer="95"/>
-<attribute name="VALUE" x="232.41" y="104.3686" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="109.7026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="207.01" y="106.9086" size="1.778" layer="96"/>
 </instance>
 <instance part="U$5" gate="G$1" x="170.18" y="116.84" rot="R90"/>
 <instance part="U$6" gate="G$1" x="170.18" y="101.6" rot="R90"/>
