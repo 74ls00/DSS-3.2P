@@ -49309,8 +49309,8 @@ diameter 7 mm, grid 2.54 mm</description>
 <instance part="3VD6" gate="1" x="210.82" y="114.3"/>
 <instance part="3KK4" gate="G$1" x="139.7" y="10.16"/>
 <instance part="+8V" gate="G$1" x="198.12" y="124.46" rot="MR0"/>
-<instance part="C5" gate="G$1" x="246.38" y="78.74"/>
-<instance part="GND13" gate="1" x="246.38" y="68.58" rot="MR0"/>
+<instance part="C5" gate="G$1" x="231.14" y="78.74"/>
+<instance part="GND13" gate="1" x="231.14" y="68.58" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -49355,7 +49355,7 @@ diameter 7 mm, grid 2.54 mm</description>
 <segment>
 <pinref part="C5" gate="G$1" pin="-"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="246.38" y1="71.12" x2="246.38" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="71.12" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$175" class="0">
@@ -49394,9 +49394,8 @@ diameter 7 mm, grid 2.54 mm</description>
 <pinref part="P+10" gate="1" pin="+24V"/>
 <wire x1="231.14" y1="83.82" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
 <junction x="231.14" y="83.82"/>
-<wire x1="231.14" y1="83.82" x2="246.38" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="+"/>
-<wire x1="246.38" y1="83.82" x2="246.38" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="83.82" x2="231.14" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="3KK3" gate="G$1" pin="K@1"/>

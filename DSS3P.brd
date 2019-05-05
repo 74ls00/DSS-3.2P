@@ -10181,12 +10181,12 @@ diameter 11 mm, grid 5.08 mm</description>
 <signal name="N$44">
 <contactref element="T1" pad="5-1"/>
 <contactref element="3VD6" pad="1"/>
-<wire x1="99.765" y1="188.515" x2="107.6325" y2="178.7525" width="0" layer="19" extent="1-1"/>
+<wire x1="107.6325" y1="178.7525" x2="99.765" y2="188.515" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$46">
 <contactref element="T1" pad="5-2"/>
 <contactref element="3VD6" pad="3"/>
-<wire x1="99.765" y1="183.515" x2="107.6325" y2="173.6725" width="0" layer="19" extent="1-1"/>
+<wire x1="107.6325" y1="173.6725" x2="99.765" y2="183.515" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
