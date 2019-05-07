@@ -47345,8 +47345,11 @@ TO-247 SBL3040PT</description>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="diodes" deviceset="SCHOTTKY_DUAL" device="TO247H" value="SBL3040PT"/>
-<part name="D1" library="diodes" deviceset="SCHOTTKY_DUAL" device="TO220H" value="SBL2040CT"/>
+<part name="D1" library="diodes" deviceset="SCHOTTKY_DUAL" device="TO220V" value="SBL2040CT"/>
 <part name="D2" library="diodes" deviceset="SCHOTTKY_DUAL" device="TO220V" value="SBL2040CT"/>
+<part name="3KK3" library="heatsink" deviceset="D03PA-PAD" device="" value=""/>
+<part name="3VD5" library="diode" deviceset="DIODE-" device="DO214AC" value="SS14"/>
+<part name="3VD6" library="diode" deviceset="DIODE-" device="DO214AC" value="SS14"/>
 </parts>
 <sheets>
 <sheet>
@@ -49363,8 +49366,8 @@ TO-247 SBL3040PT</description>
 <instance part="3KK2" gate="G$1" x="119.38" y="10.16"/>
 <instance part="U$5" gate="G$1" x="170.18" y="116.84" rot="R90"/>
 <instance part="U$6" gate="G$1" x="170.18" y="101.6" rot="R90"/>
-<instance part="3C12" gate="G$1" x="228.6" y="119.38"/>
-<instance part="GND11" gate="1" x="228.6" y="109.22" rot="MR0"/>
+<instance part="3C12" gate="G$1" x="236.22" y="119.38"/>
+<instance part="GND11" gate="1" x="236.22" y="109.22" rot="MR0"/>
 <instance part="3C17" gate="G$1" x="256.54" y="96.52"/>
 <instance part="3R5" gate="G$1" x="137.16" y="101.6" smashed="yes">
 <attribute name="NAME" x="135.89" y="103.0986" size="1.778" layer="95"/>
@@ -49375,8 +49378,8 @@ TO-247 SBL3040PT</description>
 <attribute name="VALUE" x="246.38" y="160.02" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="3C15" gate="G$1" x="243.84" y="144.78" smashed="yes">
-<attribute name="NAME" x="238.633" y="128.7526" size="1.778" layer="95"/>
-<attribute name="VALUE" x="234.823" y="126.2126" size="1.778" layer="96"/>
+<attribute name="NAME" x="241.173" y="128.7526" size="1.778" layer="95"/>
+<attribute name="VALUE" x="239.903" y="126.2126" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="243.84" y="134.62" rot="MR0"/>
 <instance part="3C11" gate="G$1" x="45.72" y="119.38" smashed="yes">
@@ -49491,7 +49494,19 @@ TO-247 SBL3040PT</description>
 <instance part="GND38" gate="1" x="243.84" y="71.12" rot="MR0"/>
 <instance part="D3" gate="G$1" x="215.9" y="96.52" rot="MR0"/>
 <instance part="D1" gate="G$1" x="213.36" y="81.28"/>
-<instance part="D2" gate="G$1" x="213.36" y="114.3"/>
+<instance part="D2" gate="G$1" x="218.44" y="114.3" smashed="yes">
+<attribute name="NAME" x="209.042" y="111.2266" size="1.778" layer="95"/>
+<attribute name="VALUE" x="209.042" y="107.7976" size="1.778" layer="96"/>
+</instance>
+<instance part="3KK3" gate="G$1" x="294.64" y="88.9"/>
+<instance part="3VD5" gate="G$1" x="213.36" y="119.38" smashed="yes">
+<attribute name="NAME" x="209.55" y="124.9426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="209.55" y="122.1486" size="1.778" layer="96"/>
+</instance>
+<instance part="3VD6" gate="G$1" x="223.52" y="119.38" smashed="yes" rot="MR0">
+<attribute name="NAME" x="227.33" y="124.9426" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="227.33" y="122.1486" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -49510,7 +49525,7 @@ TO-247 SBL3040PT</description>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="3C12" gate="G$1" pin="-"/>
-<wire x1="228.6" y1="111.76" x2="228.6" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="111.76" x2="236.22" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="3C15" gate="G$1" pin="-"/>
@@ -49859,19 +49874,25 @@ TO-247 SBL3040PT</description>
 </net>
 <net name="+8V" class="0">
 <segment>
-<wire x1="208.28" y1="124.46" x2="213.36" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="3C12" gate="G$1" pin="+"/>
-<wire x1="213.36" y1="124.46" x2="228.6" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="121.92" x2="228.6" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="124.46" x2="236.22" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="121.92" x2="236.22" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="129.54" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="116.84" x2="213.36" y2="124.46" width="0.1524" layer="91"/>
-<junction x="213.36" y="124.46"/>
-<label x="218.44" y="124.46" size="1.778" layer="95"/>
+<wire x1="218.44" y1="116.84" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
+<junction x="218.44" y="124.46"/>
+<label x="231.14" y="124.46" size="1.778" layer="95"/>
 <pinref part="+8V" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="119.38" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="124.46" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
 <junction x="208.28" y="124.46"/>
 <pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="3VD5" gate="G$1" pin="C"/>
+<wire x1="215.9" y1="119.38" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="3VD6" gate="G$1" pin="C"/>
+<wire x1="220.98" y1="119.38" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
+<junction x="218.44" y="119.38"/>
 </segment>
 <segment>
 <pinref part="3KK4" gate="G$1" pin="K@1"/>
@@ -50061,18 +50082,27 @@ TO-247 SBL3040PT</description>
 </net>
 <net name="N$46" class="0">
 <segment>
-<wire x1="220.98" y1="104.14" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="114.3" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="104.14" x2="228.6" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="8V2"/>
-<wire x1="205.74" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="104.14" x2="228.6" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A2"/>
+<pinref part="3VD6" gate="G$1" pin="A"/>
+<wire x1="226.06" y1="119.38" x2="228.6" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="119.38" x2="228.6" y2="114.3" width="0.1524" layer="91"/>
+<junction x="228.6" y="114.3"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="8V1"/>
-<wire x1="208.28" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="114.3" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A1"/>
+<pinref part="3VD5" gate="G$1" pin="A"/>
+<wire x1="208.28" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="119.38" x2="208.28" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="119.38" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
+<junction x="208.28" y="114.3"/>
 </segment>
 </net>
 <net name="N$2" class="0">
